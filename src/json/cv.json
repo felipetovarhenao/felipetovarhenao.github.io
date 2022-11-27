@@ -533,6 +533,23 @@
 				"description": "Computer-assisted composition tool for string node pattern sequencing and playback."
 			},
 			{
+				"name": "felipe-tovar-henao.com",
+				"url": "https://felipetovarhenao.github.io",
+				"year": 2022,
+				"active": true,
+				"keywords": [
+					"React",
+					"JS",
+					"Github pages",
+					"CV",
+					"Sass",
+					"html",
+					"css"
+				],
+				"artwork": "https://miro.medium.com/max/1400/1*UBPbXxCACLSygvXutPPGSA.jpeg",
+				"description": "Personal website, made with ReactJS."
+			},
+			{
 				"name": "M4L exquisitecorpus",
 				"url": "https://github.com/felipetovarhenao/exquisitecorpus",
 				"year": 2021,
