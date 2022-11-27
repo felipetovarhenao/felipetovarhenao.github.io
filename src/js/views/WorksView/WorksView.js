@@ -8,9 +8,6 @@ export default function WorksView({ works }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedWork, setSelectedWork] = useState(false);
 
-  // const categories = new Set();
-  // works.forEach((x) => x.categories.forEach((y) => categories.add(y)));
-
   return (
     <>
       <ViewHeader title={"works"} icon="mdi:music" />
