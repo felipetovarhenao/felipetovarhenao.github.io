@@ -1,0 +1,15 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.shadertoy {
+  .inner {
+    width: 100%;
+  }
+	&:not(.clicked) {
+		@include trans;
+		opacity: 50%;
+		&:hover {
+			opacity: 90%;
+		}
+	}
+}
