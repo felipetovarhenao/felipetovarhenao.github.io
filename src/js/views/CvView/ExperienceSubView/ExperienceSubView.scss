@@ -27,6 +27,9 @@
       .workplace {
         font-weight: bold;
       }
+      .courses-dropdown {
+        align-items: center;
+      }
       .courses {
         @include v-stack-c;
         @include v-pad;

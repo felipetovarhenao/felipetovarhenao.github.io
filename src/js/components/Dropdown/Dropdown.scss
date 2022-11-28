@@ -1,0 +1,23 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.dropdown {
+	@include v-stack-c;
+	.btn {
+		@include link;
+		@include h-stack-c;
+		@include v-pad;
+		.btn-txt {
+			font-style:italic;
+		}
+	}
+	.content {
+		overflow: hidden;
+		&.open {
+			height: 100%;
+		}
+		&:not(.open) {
+			height: 0;
+		}
+	}
+}

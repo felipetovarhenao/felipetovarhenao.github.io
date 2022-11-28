@@ -1,3 +1,4 @@
+import Dropdown from "../../../components/Dropdown/Dropdown";
 import "./ExperienceSubView.scss";
 
 export default function ExperienceSubView({ work }) {
@@ -28,16 +29,18 @@ export default function ExperienceSubView({ work }) {
                       : position.date[0]}
                   </span>
                   {position.courses && (
-                    <table className="courses">
-                      <tbody>
-                        {position.courses.map((course, j) => (
-                          <tr key={j} className="course">
-                            <td className="name">{course.name}</td>
-                            <td className="terms">{course.terms}</td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
+                    <Dropdown className={"courses-dropdown"} legendOpen={"hide courses"} legendClosed="show courses">
+                      <table className="courses">
+                        <tbody>
+                          {position.courses.map((course, j) => (
+                            <tr key={j} className="course">
+                              <td className="name">{course.name}</td>
+                              <td className="terms">{course.terms}</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </Dropdown>
                   )}
                 </div>
               );

@@ -8,7 +8,7 @@ export default function PublicationsSubView({ publications }) {
         .sort((a, b) => b.date - a.date)
         .map((publication, i) => (
           <div className="publication" key={i}>
-            <span className="author">{publication.author}. </span>
+            <span className="author">{publication.author} </span>
             <span className="date"> ({publication.date}). </span>
             <a className="name" href={publication.doi} target="_blank" rel="noreferrer">
               {publication.name}
