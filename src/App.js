@@ -9,6 +9,7 @@ import SoftwareView from "./js/views/SoftwareView/SoftwareView";
 import CvView from "./js/views/CvView/CvView";
 import cv from "./json/cv.json";
 import works from "./json/work-catalog.json";
+import ShadersView from "./js/views/ShadersView/ShadersView";
 
 /* sass */
 import "./index.scss";
@@ -36,6 +37,7 @@ export default function App() {
         <WorksView works={works} />
         <SoftwareView cv={cv} />
         <CvView cv={cv} works={works} />
+        <ShadersView />
         <div className="footer">{new Date(Date.now()).getFullYear()} © Felipe Tovar-Henao</div>
       </ThemeContext.Provider>
     </div>

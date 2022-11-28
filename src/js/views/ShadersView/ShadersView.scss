@@ -1,0 +1,23 @@
+@import "../../../sass/mixins.scss";
+@import "../../../sass/variables.scss";
+
+.shaders-view {
+	@include h-stack-c;
+	@include v-pad;
+	@include v-mar;
+	background-color: var(--bg4);
+	border-bottom: $border-sm solid var(--bord);
+	border-top: $border-sm solid var(--bord);
+	overflow: auto;
+	.shader {
+		$height: 300px;
+		$width: calc($height * 16 / 10);
+		@include stack;
+		@include pad;
+		@include mar;
+		@include round-border;
+		height: $height;
+		width: $width;
+		min-width: $width;
+	}
+}

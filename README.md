@@ -1,3 +1,3 @@
-## Welcome
+## felipe-tovar-henao.com
 ---
-I'm [Felipe Tovar-Henao](https://felipe-tovar-henao.com/bio), a composer, programmer, and educator. To learn about my recent projects, click [here](https://felipe-tovar-henao.com/software) or check the different [repositories](https://github.com/felipetovarhenao?tab=repositories) in this profile.
+My personal website, meant to serve as a professional portfolio and online CV. To view it, visit [https://felipetovarhenao.github.io](https://felipetovarhenao.github.io).

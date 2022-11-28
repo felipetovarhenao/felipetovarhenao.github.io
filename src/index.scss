@@ -8,7 +8,7 @@
   height: 100vh;
   overflow: auto;
   .footer {
-    @include b-mar($gap-lg);
+    @include v-mar($gap-lg);
     text-align: center;
   }
 }
