@@ -2,6 +2,7 @@
 @import "../../../sass/variables.scss";
 
 .shadertoy {
+	z-index: 3;
   .inner {
     width: 100%;
   }
