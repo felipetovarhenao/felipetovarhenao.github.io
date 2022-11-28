@@ -50,3 +50,18 @@
     }
   }
 }
+/* Safari only styling */
+@media not all and (min-resolution: 0.001dpcm) {
+  .avatar {
+    .avatar-inner {
+      border-radius: 0%;
+    }
+    .blocks {
+      width: 0%;
+      height: 0%;
+      .block {
+        height: 0px;
+      }
+    }
+  }
+}
