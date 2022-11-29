@@ -15,10 +15,14 @@ import ShadersView from "./js/views/ShadersView/ShadersView";
 import "./index.scss";
 import classNames from "classnames";
 import { useEffect, useState } from "react";
+import { useRef } from "react";
 
 export default function App() {
   const [darkTheme, setDarkTheme] = useState(true);
   const appClass = classNames("app", { dark: darkTheme });
+  const [scrollFactor, setScrollFactor] = useState(0.0);
+
+  const ref = useRef(false);
 
   useEffect(() => {
     const theme = localStorage.getItem("felipetovarhenao-theme");
@@ -30,7 +34,12 @@ export default function App() {
   }, []);
 
   return (
-    <div className={appClass}>
+    <div
+      className={appClass}
+      ref={ref}
+      onScroll={() => setScrollFactor([ref.current.scrollTop / (ref.current.scrollHeight - ref.current.clientHeight)])}
+      style={{ backgroundPositionY: `-${scrollFactor * 160}px` }}
+    >
       <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
         <NavBar />
         <HomeView cv={cv} />
