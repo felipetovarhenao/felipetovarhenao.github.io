@@ -1,4 +1,5 @@
 /* react */
+import { Routes, Route } from "react-router-dom";
 
 /* components */
 import { ThemeContext } from "./js/contexts/ThemeContext";
@@ -32,13 +33,22 @@ export default function App() {
   return (
     <div className={appClass}>
       <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
-        <NavBar />
-        <HomeView cv={cv} />
-        <WorksView works={works} />
-        <SoftwareView cv={cv} />
-        <CvView cv={cv} works={works} />
-        <ShadersView />
-        <div className="footer">{new Date(Date.now()).getFullYear()} © Felipe Tovar-Henao</div>
+        <Routes>
+          <Route
+            path="*"
+            element={
+              <>
+                <NavBar />
+                <HomeView cv={cv} />
+                <WorksView works={works} />
+                <SoftwareView cv={cv} />
+                <CvView cv={cv} works={works} />
+                <ShadersView />
+                <div className="footer">{new Date(Date.now()).getFullYear()} © Felipe Tovar-Henao</div>
+              </>
+            }
+          />
+        </Routes>
       </ThemeContext.Provider>
     </div>
   );
