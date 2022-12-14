@@ -19,7 +19,8 @@
 		],
 		"interests": [
 			"Machine learning",
-			"Web development",
+			"Software/web development",
+			"APIs",
 			"Artificial intelligence",
 			"Computer-assisted algorithmic composition",
 			"Procedural/generative art",
@@ -752,6 +753,7 @@
 				"level": 0,
 				"keywords": [
 					"django",
+					"django rest framework",
 					"numpy",
 					"scikit-learn",
 					"pandas",
