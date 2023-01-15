@@ -503,7 +503,7 @@
 					"Forms"
 				],
 				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/SISA_thumbnail.png",
-				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack application for managing and processing various administrative requests and tasks at Distecsa S.A.S. It consists of a RESTful API built with Django/Django REST and a single-page application built with ReactJS."
+				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack application for managing and processing various administrative requests and tasks at Distecsa S.A.S. It consists of a RESTful API built with Django/Django REST, a PostgreSQL database, and a single-page application built with ReactJS."
 			},
 			{
 				"name": "scattergrain",
