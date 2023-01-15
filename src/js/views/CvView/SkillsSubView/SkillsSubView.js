@@ -1,7 +1,7 @@
 import "./SkillsSubView.scss";
 
 export default function SkillsSubView({ skills }) {
-  const maxLevel = 3;
+  const maxLevel = 5;
   const fields = ["languages", "technology"];
   return (
     <div className="skills-subview">

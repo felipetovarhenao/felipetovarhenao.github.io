@@ -39,6 +39,7 @@
         @include v-stack;
         .name {
           @include stack;
+          @include v-mar;
           font-weight: bold;
           color: var(--primary);
           height: 50%;
@@ -49,10 +50,9 @@
         align-items: center;
         text-align: center;
         white-space: pre-wrap;
-        overflow: auto;
         $box-size: 190px;
         width: $box-size;
-        height: calc($box-size * 0.5);
+        min-height: calc($box-size * 0.5);
         .keywords {
           @include h-stack-c;
           @include wrap;

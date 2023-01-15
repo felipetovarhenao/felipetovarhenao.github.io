@@ -116,6 +116,16 @@
 	"work": {
 		"other positions": [
 			{
+				"name": "Freelance Software Developer",
+				"workplace": "Distecsa S.A.S",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia (remote)",
+				"date": [
+					2022,
+					2023
+				]
+			},
+			{
 				"name": "Freelance Music Copyist",
 				"workplace": "The U.S. Army Band \"Pershing's Own\"",
 				"city": "Arlington County, VA",
@@ -479,6 +489,23 @@
 		],
 		"software": [
 			{
+				"name": "SISA",
+				"url": "https://youtu.be/KG80_HL_rvQ",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"ReactJS",
+					"Formik",
+					"Django",
+					"Django REST",
+					"SQL",
+					"Management",
+					"Forms"
+				],
+				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/SISA_thumbnail.png",
+				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack application for managing and processing various administrative requests and tasks at Distecsa S.A.S. It consists of a RESTful API built with Django/Django REST and a single-page application built with ReactJS."
+			},
+			{
 				"name": "scattergrain",
 				"url": "https://scattergrain.app/",
 				"year": 2022,
@@ -773,7 +800,7 @@
 			},
 			{
 				"name": "Common Lisp (CLOS)",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"om"
 				]
@@ -797,14 +824,14 @@
 			},
 			{
 				"name": "GLSL",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"procedural art"
 				]
 			},
 			{
 				"name": "Command-line interface (CLI)",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"bash",
 					"zsh",
@@ -813,7 +840,7 @@
 			},
 			{
 				"name": "SQL",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"postgres",
 					"sqlite",
@@ -823,7 +850,7 @@
 			},
 			{
 				"name": "LaTeX",
-				"level": 1,
+				"level": 3,
 				"keywords": [
 					"pdf",
 					"text documents"
@@ -850,7 +877,7 @@
 			},
 			{
 				"name": "AWS",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"S3",
 					"cloudfront",
@@ -902,7 +929,7 @@
 			},
 			{
 				"name": "GRM tools",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"DSP",
 					"Audio plugins"
@@ -918,7 +945,7 @@
 			},
 			{
 				"name": "MuseScore",
-				"level": 2,
+				"level": 4,
 				"keywords": [
 					"engraving",
 					"music"
@@ -926,7 +953,7 @@
 			},
 			{
 				"name": "TouchDesigner",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"Python",
 					"GLSL",
@@ -935,7 +962,7 @@
 			},
 			{
 				"name": "Processing",
-				"level": 1,
+				"level": 3,
 				"keywords": [
 					"Procedural art",
 					"java",
@@ -951,14 +978,14 @@
 			},
 			{
 				"name": "Arduino",
-				"level": 2,
+				"level": 4,
 				"keywords": [
 					"Digital Musical Instruments"
 				]
 			},
 			{
 				"name": "Audio Hardware",
-				"level": 1,
+				"level": 2,
 				"keywords": [
 					"microphones",
 					"interfaces",
