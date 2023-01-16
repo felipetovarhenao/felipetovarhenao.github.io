@@ -48,9 +48,9 @@
   &:not(.open) {
     @include clickable;
     @include grow;
-    background-color: var(--bg3);
+    background: linear-gradient(0deg, var(--bord-trans), var(--bg2trans));
     &:hover {
-      background-color: var(--bg-hl);
+      background-color: var(--bg-hl-trans);
     }
     .slide-content {
       display: none;

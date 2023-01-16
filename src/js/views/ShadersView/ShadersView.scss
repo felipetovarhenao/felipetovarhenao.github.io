@@ -5,7 +5,7 @@
 	@include h-stack-c;
 	@include v-pad;
 	@include v-mar;
-	background-color: var(--bg4);
+	background-color: var(--bg4trans);
 	border-bottom: $border-ml solid var(--bord);
 	border-top: $border-ml solid var(--bord);
 	overflow: auto;

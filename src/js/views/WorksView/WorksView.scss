@@ -8,7 +8,7 @@
   $border-col: var(--bord);
   border-top: $border-size solid $border-col;
   border-bottom: $border-size solid $border-col;
-  background-color: var(--bg4);
+  background-color: var(--bg4trans);
   width: 100%;
   .work-cards {
     @include row-grid(1fr 1fr);

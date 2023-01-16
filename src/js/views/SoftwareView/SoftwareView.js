@@ -11,7 +11,7 @@ export default function SoftwareView({ cv }) {
   };
   return (
     <>
-      <ViewHeader title="software" icon="material-symbols:code" />
+      <ViewHeader title="code" icon="material-symbols:code" />
       <div className="software-view">
         {cv.work.software
           .sort((a, b) => b.year - a.year)
