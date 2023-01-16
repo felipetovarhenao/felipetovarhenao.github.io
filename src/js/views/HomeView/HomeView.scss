@@ -73,7 +73,7 @@
   }
   .bio {
     @include vh-pad($gap-lg, $gap-xl);
-    background-color: var(--bg2);
+    background-color: var(--bg2trans);
     min-width: 100px;
     .bio-header {
       @include b-mar;

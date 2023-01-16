@@ -15,7 +15,7 @@
     text-overflow: ellipsis;
   }
   &.open {
-    background-color: var(--bg2);
+    background-color: var(--bg2trans);
     .slide-content {
       * {
         @include onload-animation(fade-in, $dur: 0.5s);

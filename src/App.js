@@ -32,6 +32,7 @@ export default function App() {
 
   return (
     <div className={appClass}>
+      <div className="app-bg"></div>
       <ThemeContext.Provider value={{ darkTheme, setDarkTheme }}>
         <Routes>
           <Route
