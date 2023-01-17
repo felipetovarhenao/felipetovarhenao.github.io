@@ -52,9 +52,10 @@
       .labels {
         @include h-stack-c;
         @include h-center;
+        justify-content: center;
         .label {
           @include h-stack-c;
-          @include h-center;
+          // @include h-center;
           width: -webkit-max-content;
           width: -moz-max-content;
           width: max-content;
@@ -69,6 +70,7 @@
     .profiles {
       @include h-stack-c;
       @include h-center;
+      justify-content: center;
     }
   }
   .bio {
