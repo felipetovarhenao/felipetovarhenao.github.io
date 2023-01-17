@@ -15,6 +15,9 @@
   }
   .icon {
     font-size: $txt-lg;
+    * {
+      color: var(--secondary);
+    }
   }
   .cv-section-title {
     vertical-align: middle;

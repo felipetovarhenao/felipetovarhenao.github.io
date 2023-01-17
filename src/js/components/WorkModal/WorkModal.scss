@@ -50,9 +50,7 @@
     white-space: pre-wrap;
     color: var(--inactive);
     @include vh-pad($gap-lg, $gap-xxl);
-    // background-color: var(--bg4);
     border-radius: $border-lg;
-    // text-align: center;
     font-style: italic;
     max-width: 600px;
   }
@@ -76,6 +74,8 @@
               @include r-mar;
               @include round-border;
               font-family: $font2;
+              background-color: var(--bg1);
+              color: var(--primary);
               text-transform: lowercase;
             }
           }
@@ -102,9 +102,14 @@
               font-weight: bold;
             }
             .media {
-              & * {
-                font-size: $txt-ml;
+              * {
+                @include v-mar($gap-ms);
+                font-size: $txt-lg;
                 vertical-align: middle;
+                transition-duration: 0.2s;
+                &:hover {
+                  filter: brightness(112%);
+                }
               }
               &.video * {
                 color: var(--danger);

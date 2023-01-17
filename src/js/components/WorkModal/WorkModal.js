@@ -41,9 +41,10 @@ export default function WorkModal({ work, open, setOpen }) {
                               <span className="date">{formatDate(d.date)}.</span>
                               <span className="city">{d.city}.</span>
                               <span className="country">{d.country}.</span>
+                              {(d.audio || d.video) && <br />}
                               {d.audio && (
                                 <a href={d.audio} target="_blank" rel="noreferrer" className="media audio">
-                                  <Icon icon="ic:round-headphones" />
+                                  <Icon icon="fluent:headphones-sound-wave-20-filled" />
                                 </a>
                               )}
                               {d.video && (

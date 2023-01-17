@@ -48,7 +48,19 @@
   &:not(.open) {
     @include clickable;
     @include grow;
-    background: linear-gradient(0deg, var(--bord-trans), var(--bg2trans));
+    --center-col: var(--bg1trans);
+    .dark & {
+      --center-col: var(--bg3trans);
+    }
+    background: linear-gradient(
+      -61deg,
+      var(--bord-trans),
+      var(--bord-trans) 20%,
+      var(--center-col) 20.01%,
+      var(--center-col),
+      80%,
+      var(--bord-trans) 80.01%
+    );
     &:hover {
       background-color: var(--bg-hl-trans);
     }

@@ -12,7 +12,7 @@
   --bg4: #cfcfcf;
   --bg4trans: #cfcfcfb7;
   --bord: #4b5765;
-  --bord-trans: #4b576538;
+  --bord-trans: #4b576511;
   --txt: #292929;
   --primary: #415f79;
   --secondary: #4a88b8;
@@ -22,11 +22,11 @@
   --bg-sel: #d8d8d8;
   --inactive: #6b6b6b;
   --glow: #fff4a377;
-  --level1: #4e97ce55;
-  --level2: #4ea3ce99;
-  --level3: #4ececaaa;
-  --level4: #4eceb0cc;
-  --level5: #4ece8aff;
+  --level1: #4e97ce;
+  --level2: #4ea3ce;
+  --level3: #4ececa;
+  --level4: #4eceb0;
+  --level5: #4ece8a;
   --audio: #3d89a9;
 }
 
@@ -40,7 +40,7 @@
   --bg4: #101010;
   --bg4trans: #101010b7;
   --bord: #445d76;
-  --bord-trans: #445d7655;
+  --bord-trans: #445d7608;
   --txt: #d9d9d9;
   --primary: #94acb9;
   --secondary: #73bbd3;
@@ -59,6 +59,7 @@ $font2: "Ubuntu Mono", monospace;
 /* sizes */
 $gap-xs: 1px;
 $gap-sm: 2.5px;
+$gap-ms: 3.5px;
 $gap-md: 5px;
 $gap-ml: 7px;
 $gap-lg: 10px;

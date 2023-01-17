@@ -86,8 +86,8 @@
       @include v-pad;
       color: var(--txt);
       font-size: $txt-ml;
-      // font-family: $font2;
-      text-align: center;
+      font-weight: lighter;
+      text-align: left;
     }
     .header {
       text-align: center;

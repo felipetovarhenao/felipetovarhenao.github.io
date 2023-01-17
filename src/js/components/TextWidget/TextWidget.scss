@@ -20,7 +20,7 @@
   .text-widget-inner {
     overflow: auto;
     transition: all 0.5s ease;
-    width: 70vw;
+    width: 80vw;
     @include round-border($size: $border-lg);
     &:not(.show) {
       border-color: #00000000;
