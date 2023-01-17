@@ -10,7 +10,7 @@ export default function ThemeSwitch() {
     <div
       className="theme-switch"
       onClick={() => {
-        localStorage.setItem("felipetovarhenao-theme", darkTheme ? "light" : "dark");
+        localStorage.setItem("theme", darkTheme ? "light" : "dark");
         setDarkTheme((x) => !x);
       }}
     >

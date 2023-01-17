@@ -22,7 +22,7 @@ export default function App() {
   const appClass = classNames("app", { dark: darkTheme });
 
   useEffect(() => {
-    const theme = localStorage.getItem("felipetovarhenao-theme");
+    const theme = localStorage.getItem("theme");
     if (theme === "light") {
       setDarkTheme(false);
     } else if (theme === "dark") {
