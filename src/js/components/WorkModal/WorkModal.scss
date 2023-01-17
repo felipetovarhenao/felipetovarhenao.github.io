@@ -19,6 +19,8 @@
   .header {
     @include h-stack;
     @include h-center;
+    flex-wrap: wrap;
+    justify-content: center;
     * {
       @include r-pad;
       font-size: $txt-ml;
@@ -107,7 +109,9 @@
                 font-size: $txt-lg;
                 vertical-align: middle;
                 transition-duration: 0.2s;
-                &:hover {
+              }
+              &:hover {
+                * {
                   filter: brightness(112%);
                 }
               }

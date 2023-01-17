@@ -3,7 +3,7 @@
 
 .modal {
   .modal-close-btn {
-    $modal-close-btn-margin: 5px;
+    $modal-close-btn-margin: $gap-ml;
     @include link;
     border-radius: 100%;
     font-size: $txt-lg;
