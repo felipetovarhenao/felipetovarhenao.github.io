@@ -25,7 +25,7 @@ export default function ExperienceSubView({ work }) {
                   </span>
                   <span className="date">
                     {position.date[1]
-                      ? `${position.date[0]}–${position.date[1] === maxValue ? "pr." : JSON.stringify(position.date[1]).slice(2, 4)}`
+                      ? `${position.date[0]}–${position.date[1] === maxValue ? "pr." : String(position.date[1]).slice(2, 4)}`
                       : position.date[0]}
                   </span>
                   {position.courses && (
