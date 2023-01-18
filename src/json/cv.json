@@ -116,13 +116,13 @@
 	"work": {
 		"other positions": [
 			{
-				"name": "Freelance Software Developer",
+				"name": "Freelance software developer",
 				"workplace": "Distecsa S.A.S",
 				"city": "Medellín, Antioquia",
 				"country": "Colombia (remote)",
 				"date": [
 					2022,
-					2023
+					true
 				]
 			},
 			{
