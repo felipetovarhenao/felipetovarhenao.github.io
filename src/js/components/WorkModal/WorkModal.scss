@@ -94,7 +94,7 @@
             @include v-stack;
           }
           .performance {
-            @include b-pad($gap-lg);
+            @include v-pad($gap-ms);
             span,
             a {
               @include r-pad;
@@ -105,7 +105,7 @@
             }
             .media {
               * {
-                @include v-mar($gap-ms);
+                @include t-mar($gap-md);
                 font-size: $txt-lg;
                 vertical-align: middle;
                 transition-duration: 0.2s;
@@ -130,7 +130,7 @@
               }
             }
             .separator {
-              @include t-mar($gap-lg);
+              @include t-mar($gap-ml);
               @include l-mar($gap-md);
               height: $gap-sm;
               width: 10%;
