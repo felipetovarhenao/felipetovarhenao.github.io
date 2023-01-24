@@ -279,7 +279,7 @@
 				"venue": "Bennett Gordon Hall",
 				"city": "Chicago, IL",
 				"country": "USA",
-				"audio": false,
+				"audio": "https://on.soundcloud.com/NqaKm",
 				"video": false
 			}
 		]
@@ -1047,6 +1047,21 @@
 		],
 		"awards": false,
 		"performances": [
+			{
+				"event": "SMTD Student Recital, Roberto Campa",
+				"date": "2023-03-11",
+				"performers": [
+					{
+						"name": "Roberto Campa",
+						"role": "soprano sax."
+					}
+				],
+				"venue": "Britton Recital Hall, University of Michigan's School of Music, Theatre, and Dance",
+				"city": "Ann Arbor, MI",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
 			{
 				"event": "Electric Forests: The UIndy Composers Forum featuring Felipe Tovar-Henao",
 				"date": "2021-11-18",
