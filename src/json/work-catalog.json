@@ -1048,6 +1048,21 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Joe Clark Clarinet Recital",
+				"date": "2023-04-28",
+				"performers": [
+					{
+						"name": "Joe Clark",
+						"role": "clarinet"
+					}
+				],
+				"venue": " La Porte High School's Performing Arts Center",
+				"city": "La Porte, IN",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "SMTD Student Recital, Roberto Campa",
 				"date": "2023-03-11",
 				"performers": [
