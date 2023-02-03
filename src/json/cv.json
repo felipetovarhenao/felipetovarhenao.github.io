@@ -528,7 +528,7 @@
 			},
 			{
 				"name": "GAMuT",
-				"url": "https://pypi.org/project/gamut/",
+				"url": "https://felipetovarhenao.github.io/gamut",
 				"year": 2022,
 				"active": true,
 				"keywords": [
