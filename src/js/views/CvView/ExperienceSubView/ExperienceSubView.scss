@@ -14,7 +14,10 @@
     @include h-pad($gap-lg);
     .position {
       @include v-pad;
+      @include v-stack-c;
       text-align: center;
+      max-width: 500px;
+      width: fit-content;
       .name {
         @include v-stack;
         font-size: $txt-ml;
@@ -27,8 +30,20 @@
       .workplace {
         font-weight: bold;
       }
-      .courses-dropdown {
+      .description-dropdown {
         align-items: center;
+      }
+      .duties {
+        @include v-stack-c;
+        text-align: left;
+        .duty {
+          @include v-mar;
+          color: var(--inactive);
+          font-style: italic;
+        }
+      }
+      .bulletpoint {
+        color: var(--secondary) !important;
       }
       .courses {
         @include v-stack-c;

@@ -28,18 +28,29 @@ export default function ExperienceSubView({ work }) {
                       ? `${position.date[0]}–${position.date[1] === maxValue ? "pr." : String(position.date[1]).slice(2, 4)}`
                       : position.date[0]}
                   </span>
-                  {position.courses && (
-                    <Dropdown className={"courses-dropdown"} legendOpen={"hide courses"} legendClosed="show courses">
-                      <table className="courses">
-                        <tbody>
-                          {position.courses.map((course, j) => (
-                            <tr key={j} className="course">
-                              <td className="name">{course.name}</td>
-                              <td className="terms">{course.terms}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
+                  {position.duties && (
+                    <Dropdown className={"description-dropdown"} legendOpen={"hide description"} legendClosed="show description">
+                      <div className="duties">
+                        {position.courses && <>Duties:</>}
+                        {position.duties.map((duty, i) => (
+                          <span className="duty" key={i}>
+                            <span className="bulletpoint">•</span> {duty}
+                          </span>
+                        ))}
+                      </div>
+                      {position.courses && (
+                        <table className="courses">
+                          <thead>Courses:</thead>
+                          <tbody>
+                            {position.courses.map((course, j) => (
+                              <tr key={j} className="course">
+                                <td className="name">{course.name}</td>
+                                <td className="terms">{course.terms}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      )}
                     </Dropdown>
                   )}
                 </div>
