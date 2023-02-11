@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: 16
       - run: npm install
-      - run: npm deploy
+      - run: npm run deploy
