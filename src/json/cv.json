@@ -218,7 +218,7 @@
 				"city": "Chicago, IL",
 				"country": "USA",
 				"duties": [
-					"Developing new works for guest and resident artists at the Chicago Center for Contemporary Composiiton",
+					"Developing new works for guest and resident artists at the Chicago Center for Contemporary Composition",
 					"Teaching introductory undegraduate music courses and teaching private composition lessons",
 					"Attending and participating in composition colloquia, events, and concerts"
 				],
@@ -255,16 +255,20 @@
 				],
 				"courses": [
 					{
-						"name": "MU0890: Seminario Tutorial",
+						"name": "MU0900: Proyecto Final (MM)",
+						"terms": "Spring 2023"
+					},
+					{
+						"name": "MU0890: Seminario Tutorial (MM)",
 						"terms": "Fall 2022"
 					},
 					{
 						"name": "MU0466: Contrapunto 4",
-						"terms": "Fall 2022"
+						"terms": "Fall 2022 - Spring 2023"
 					},
 					{
 						"name": "MU0456: Contrapunto 3",
-						"terms": "Fall 2022"
+						"terms": "Fall 2022 - Spring 2023"
 					}
 				]
 			},
