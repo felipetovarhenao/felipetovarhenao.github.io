@@ -2,23 +2,32 @@
 @import "../../../../sass/variables.scss";
 
 .publications-subview {
-  @include v-stack-c;
+  @include v-stack;
   @include vh-pad($gap-md, $gap-xl);
-  align-items: center;
-  .publication {
-    @include round-border;
-    @include vh-pad($gap-lg, $gap-lg);
-    @include mar;
-    width: 100%;
-    background-color: var(--bg1);
-    *:not(.icon) {
-      font-size: $txt-ml;
+  .publications {
+    @include v-stack;
+    .header {
+      @include v-pad($gap-lg);
+      font-size: $txt-md;
+      text-transform: uppercase;
+      text-align: center;
     }
-    .name {
-      font-weight: bold;
-    }
-    .publisher {
-      font-style: italic;
+    .publication {
+      @include round-border;
+      @include vh-pad($gap-lg, $gap-lg);
+      @include mar;
+      width: 100%;
+      background-color: var(--bg1);
+      *:not(.icon) {
+        font-size: $txt-md;
+      }
+      .name {
+        font-weight: bold;
+      }
+      .publisher,
+      .album {
+        font-style: italic;
+      }
     }
   }
 }

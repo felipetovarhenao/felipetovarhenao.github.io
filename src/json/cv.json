@@ -33,17 +33,17 @@
 			"Cinema"
 		],
 		"location": {
-			"address": "Cra 30 No. 7A 227 Apto 202 Ed. Guaymaral",
+			"address": "Cra. 30 #7A 227, Apt. 202",
 			"postalCode": "050021",
 			"city": "Medellín",
-			"countryCode": "COL",
-			"region": "Antioquia"
+			"region": "Antioquia",
+			"countryCode": "COL"
 		},
 		"profiles": [
 			{
 				"network": "Gmail",
 				"username": "felipe.tovar.henao",
-				"url": "mailto: felipe.tovar.henao@gmail.com"
+				"url": "mailto:felipe.tovar.henao@gmail.com"
 			},
 			{
 				"network": "GitHub",
@@ -464,6 +464,18 @@
 		],
 		"residencies": [
 			{
+				"role": "Guest composer",
+				"date": "2023-03-27",
+				"event": "Davis Institute for Artificial Intelligence",
+				"institution": "Colby College",
+				"end": "2023-03-31",
+				"activities": [
+					"guest lecture",
+					"student workshop",
+					"collaborative sound installation"
+				]
+			},
+			{
 				"role": "Resident composer",
 				"date": "2022-07-22",
 				"event": "Mizzou International Composer Festival",
@@ -489,44 +501,97 @@
 				]
 			}
 		],
-		"publications": [
-			{
-				"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
-				"author": "Tovar Henao, F.",
-				"date": 2022,
-				"publisher": "Ricercare",
-				"edition": 15,
-				"pages": [
-					107,
-					102
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
-			},
-			{
-				"name": "«Danzas Encefálicas» for sinfonietta and electronics",
-				"author": "Tovar Henao, F.",
-				"date": 2020,
-				"publisher": "Ricercare",
-				"edition": 13,
-				"pages": [
-					79,
-					127
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
-			},
-			{
-				"name": "«Elegía Litúrgica» para violín y piano",
-				"author": "Tovar Henao, F.",
-				"date": 2015,
-				"publisher": "Ricercare",
-				"edition": 4,
-				"pages": [
-					65,
-					74
-				],
-				"doi": "https://doi.org/10.17230/ricercare.2015.4.7"
-			}
-		],
+		"publications": {
+			"articles": [
+				{
+					"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
+					"author": "Tovar Henao, F.",
+					"date": 2022,
+					"publisher": "Ricercare",
+					"edition": 15,
+					"pages": [
+						107,
+						122
+					],
+					"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
+				}
+			],
+			"scores": [
+				{
+					"name": "«Danzas Encefálicas» for sinfonietta and electronics",
+					"author": "Tovar Henao, F.",
+					"date": 2020,
+					"publisher": "Ricercare",
+					"edition": 13,
+					"pages": [
+						79,
+						127
+					],
+					"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
+				},
+				{
+					"name": "«Elegía Litúrgica» para violín y piano",
+					"author": "Tovar Henao, F.",
+					"date": 2015,
+					"publisher": "Ricercare",
+					"edition": 4,
+					"pages": [
+						65,
+						74
+					],
+					"doi": "https://doi.org/10.17230/ricercare.2015.4.7"
+				}
+			],
+			"recordings": [
+				{
+					"track": "«¡Carnaval del Diablo!» matachinesque ritual for clarinet and electronics",
+					"album": "Sortilegios",
+					"performers": [
+						{
+							"name": "Javier Asdrubal-Vinasco",
+							"role": "clarinet"
+						}
+					],
+					"year": 2020,
+					"recordLabel": "Fonarte Latino",
+					"url": "https://open.spotify.com/album/5owuDwzvXYC0Lk890Fk1SO"
+				},
+				{
+					"track": "«Tubiphona Exequialis» for brass ensemble and percussion",
+					"album": "La nueva música sinfónica colombiana, vol. 5",
+					"performers": [
+						{
+							"name": "Cecilia Espinosa Arango",
+							"role": "conductor"
+						},
+						{
+							"name": "Orquesta Sinfónica EAFIT",
+							"role": "orchestra"
+						}
+					],
+					"year": 2016,
+					"recordLabel": "Universidad EAFIT",
+					"url": "https://open.spotify.com/track/7G4VheD7Kcoe9cbX9qnAk7"
+				},
+				{
+					"track": "«Cinco Cantos Embera-Chamí» song cycle for mixed choir",
+					"album": "La nueva música coral colombiana, vol. 3",
+					"performers": [
+						{
+							"name": "Cecilia Espinosa Arango",
+							"role": "conductor"
+						},
+						{
+							"name": "Coro Tonos Humanos",
+							"role": "choir"
+						}
+					],
+					"year": 2016,
+					"recordLabel": "Universidad EAFIT",
+					"url": "https://soundcloud.com/felipetovarhenao/sets/cinco-cantos-embera-chami"
+				}
+			]
+		},
 		"software": [
 			{
 				"name": "SISA",
@@ -568,7 +633,7 @@
 			},
 			{
 				"name": "GAMuT",
-				"url": "https://felipetovarhenao.github.io/gamut",
+				"url": "https://felipe-tovar-henao.com/gamut/",
 				"year": 2022,
 				"active": true,
 				"keywords": [
@@ -603,7 +668,7 @@
 			},
 			{
 				"name": "felipe-tovar-henao.com",
-				"url": "https://github.com/felipetovarhenao/felipetovarhenao.github.io",
+				"url": "https://felipe-tovar-henao.com",
 				"year": 2022,
 				"active": true,
 				"keywords": [
@@ -790,7 +855,7 @@
 	"skills": {
 		"languages": [
 			{
-				"name": "spanish",
+				"name": "Spanish",
 				"fluency": "native",
 				"level": 0,
 				"keywords": [
@@ -798,7 +863,7 @@
 				]
 			},
 			{
-				"name": "english",
+				"name": "English",
 				"fluency": "bilingual",
 				"level": 0,
 				"keywords": [
@@ -806,7 +871,7 @@
 				]
 			},
 			{
-				"name": "french",
+				"name": "French",
 				"fluency": "intermediate",
 				"level": 2,
 				"keywords": [
