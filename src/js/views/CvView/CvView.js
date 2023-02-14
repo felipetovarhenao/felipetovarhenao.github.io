@@ -28,7 +28,13 @@ export default function CvView({ cv, works }) {
   ];
   return (
     <div className="cv-view">
-      <ViewHeader title="CV" icon="material-symbols:work" />
+      <div className="cv-header">
+        <a className="cv-download" href="https://d2cqospqxtt8fw.cloudfront.net/personal-website/cv.pdf" target="_blank" rel="noreferrer">
+          Download CV
+        </a>
+        <ViewHeader title="CV" icon="material-symbols:work" />
+        <div></div>
+      </div>
       <ExpandableSlideShow
         titles={Object.keys(slides).map((key, i) => (
           <span key={i} className="cv-section-title">

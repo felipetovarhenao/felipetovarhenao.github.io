@@ -5,6 +5,15 @@
 .cv-view {
   @include b-mar($gap-xl);
   @include pad;
+  .cv-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    .cv-download {
+      @include to-left;
+      @include v-center;
+      @include l-pad($gap-lg);
+    }
+  }
   .closed .icon {
     -webkit-writing-mode: horizontal-tb;
     -ms-writing-mode: lr-tb;
