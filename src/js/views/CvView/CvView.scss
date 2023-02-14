@@ -10,8 +10,12 @@
     grid-template-columns: 1fr auto 1fr;
     .cv-download {
       @include to-left;
-      @include v-center;
-      @include l-pad($gap-lg);
+      @include to-bottom;
+      @include l-pad($gap-ml);
+      @include b-pad($gap-md);
+      @include mobile-down {
+        font-size: $txt-sm;
+      }
     }
   }
   .closed .icon {
