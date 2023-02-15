@@ -605,13 +605,11 @@
 					"ReactJS",
 					"Formik",
 					"Django",
-					"Django REST",
-					"SQL",
-					"Management",
-					"Forms"
+					"DRF",
+					"SQL"
 				],
 				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/SISA_thumbnail.png",
-				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack web application for managing and processing various administrative requests and tasks at Distecsa S.A.S."
+				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack web application for streamlining administrative tasks at Distecsa S.A.S."
 			},
 			{
 				"name": "scattergrain",
@@ -625,11 +623,11 @@
 					"DSP",
 					"Granulation",
 					"Web Audio API",
-					"aws",
-					"Canvas API",
+					"AWS",
+					"canvas API",
 					"MIR",
 					"ML",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/static/card.png",
 				"description": "Full-stack web application for interactive, corpus-based granular audio synthesis, using ML and MIR techniques."
@@ -645,7 +643,7 @@
 					"Granulation",
 					"MIR",
 					"ML",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://warehouse-camo.ingress.cmh1.psfhosted.org/4f00e68d336fde659e9353046093bdc68b9cffed/68747470733a2f2f7374617469632e7769787374617469632e636f6d2f6d656469612f3938613165625f34646263333431666661623034393936613339363137626634653631313762667e6d76322e706e672f76312f66696c6c2f775f3835362c685f3533342c616c5f632c715f39302c75736d5f302e36365f312e30305f302e30312f6c6f676f2e77656270",
 				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques."
@@ -659,12 +657,12 @@
 					"MaxMSP",
 					"bach",
 					"CAC",
-					"Sampling",
-					"Transcription",
-					"Sequencer",
+					"sampling",
+					"transcription",
+					"sequencer",
 					"Ableton Live",
 					"Max4Live",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://github.com/felipetovarhenao/stringnode/raw/main/images/script.png",
 				"description": "Computer-assisted composition tool for string node pattern sequencing and playback."
@@ -678,11 +676,11 @@
 					"React",
 					"JS",
 					"Github pages",
-					"aws s3",
+					"AWS s3",
 					"CV",
 					"Sass",
-					"html",
-					"css"
+					"HTML",
+					"CSS"
 				],
 				"artwork": "https://miro.medium.com/max/1400/1*UBPbXxCACLSygvXutPPGSA.jpeg",
 				"description": "Personal website, made with ReactJS."
@@ -697,10 +695,10 @@
 					"Ableton Live",
 					"Max4Live",
 					"DSP",
-					"Sampling",
+					"sampling",
 					"MIR",
 					"bach",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://github.com/felipetovarhenao/exquisitecorpus/raw/main/reference_screenshots/EC-analyzer_full.png",
 				"description": "Open-source, Max for Live device (audio plug-in) for corpus-based sampling transposition and analysis in Ableton Live."
@@ -715,9 +713,9 @@
 					"Gen",
 					"OpenMusic",
 					"DSP",
-					"Synth",
+					"synth",
 					"OSC",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://github.com/felipetovarhenao/miniOMsynth/raw/main/miniOMsynth_prev_images/miniOMsynth_editor.png",
 				"description": "Cross-platform (MacOS, Windows), open-source audio synthesizer application for OpenMusic playback support, via OSC protocol."
@@ -749,7 +747,7 @@
 					"Leafcutter John",
 					"DSP",
 					"MaxMSP",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://cecm.indiana.edu/images/felipe-umbra.png",
 				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP."
@@ -762,7 +760,7 @@
 				"keywords": [
 					"RTcmix",
 					"DSP",
-					"Audio"
+					"audio"
 				],
 				"artwork": "https://i.ytimg.com/vi/RQpJuNt3dYk/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBCPaoSvMAt-fucyyeA8-0gR9Qhxw",
 				"description": "Mixed collection of user-defined RTcmix functions, mainly for easy handling of nested data structures."
