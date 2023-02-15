@@ -762,7 +762,7 @@
 					"DSP",
 					"audio"
 				],
-				"artwork": "https://i.ytimg.com/vi/RQpJuNt3dYk/hqdefault.jpg?s…AFwAcABBg==&rs=AOn4CLBCPaoSvMAt-fucyyeA8-0gR9Qhxw",
+				"artwork": "https://i.ytimg.com/vi/RQpJuNt3dYk/hqdefault.jpg",
 				"description": "Mixed collection of user-defined RTcmix functions, mainly for easy handling of nested data structures."
 			}
 		]
