@@ -18,19 +18,22 @@
 			"He has held teaching and research positions, such as the 2021/22 CCCC Postdoctoral Researcher at the University of Chicago, Associate Instructor and Coordinator of the IU JSoM Composition Department (2017-'20), as well as Adjunct Professor in Music Theory and Composition at Universidad EAFIT (2020-'21), where he currently teaches."
 		],
 		"interests": [
-			"Machine learning",
-			"Software/web development",
+			"machine learning",
+			"software development",
 			"APIs",
-			"Artificial intelligence",
-			"Computer-assisted algorithmic composition",
-			"Procedural/generative art",
-			"Philosophy",
-			"Pyschoacoustics",
-			"Digital signal processing",
-			"Music psychology/cognition",
-			"Music information retrieval",
-			"Data science",
-			"Cinema"
+			"mathematics",
+			"human-computer interaction",
+			"computational musicology/music theory",
+			"artificial intelligence",
+			"computer-assisted algorithmic composition",
+			"procedural/generative art",
+			"philosophy",
+			"pyschoacoustics",
+			"digital signal processing",
+			"music psychology/cognition",
+			"music information retrieval",
+			"data science",
+			"cinema"
 		],
 		"location": {
 			"address": "Cra. 30 #7A 227, Apt. 202",
@@ -326,7 +329,7 @@
 						"terms": "Spring 2018"
 					},
 					{
-						"name": "MUS-I301: Composition Seminar for non-majors",
+						"name": "MUS-I301: Composition Seminar (non-majors)",
 						"terms": "Fall 2018 - Spring 2019"
 					},
 					{

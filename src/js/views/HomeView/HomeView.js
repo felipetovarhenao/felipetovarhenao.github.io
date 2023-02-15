@@ -49,7 +49,7 @@ export default function HomeView({ cv }) {
             ))}
             <span className="header">Interests</span>
             <div className="interests">
-              {basics.interests.map((x, i) => (
+              {basics.interests.sort().map((x, i) => (
                 <span key={i} className="interest">
                   {x}
                 </span>
