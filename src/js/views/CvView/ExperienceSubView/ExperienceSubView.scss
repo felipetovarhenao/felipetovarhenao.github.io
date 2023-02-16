@@ -3,62 +3,66 @@
 
 .experience-subview {
   @include b-pad($gap-lg);
-  .header {
-    @include v-pad;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  .academic,
-  .other-positions {
-    @include v-mar;
-    @include h-pad($gap-lg);
-    .position {
+  @include v-stack;
+  align-items: center;
+  .experience-scroll {
+    max-width: 500px;
+    .header {
       @include v-pad;
-      @include v-stack-c;
+      text-transform: uppercase;
       text-align: center;
-      max-width: 500px;
-      width: fit-content;
-      .name {
-        @include v-stack;
-        font-size: $txt-ml;
-        font-style: italic;
-        color: var(--secondary);
-      }
-      .date {
-        @include v-stack;
-      }
-      .workplace {
-        font-weight: bold;
-      }
-      .description-dropdown {
-        align-items: center;
-      }
-      .duties {
-        @include v-stack-c;
-        text-align: left;
-        .duty {
-          @include v-mar;
-          color: var(--inactive);
-          font-style: italic;
-        }
-      }
-      .bulletpoint {
-        color: var(--secondary) !important;
-      }
-      .courses {
-        @include v-stack-c;
+    }
+    .academic,
+    .other-positions {
+      @include v-mar;
+      @include h-pad($gap-lg);
+      .position {
         @include v-pad;
-        @include h-center;
-        width: -webkit-fit-content;
-        width: -moz-fit-content;
+        @include v-stack-c;
+        text-align: center;
         width: fit-content;
-        text-align: left;
-        border-spacing: $gap-lg $gap-sm;
-        .course {
-          .name,
-          .terms {
+        .name {
+          @include v-stack;
+          font-size: $txt-ml;
+          font-style: italic;
+          color: var(--secondary);
+        }
+        .date {
+          @include v-stack;
+        }
+        .workplace {
+          font-weight: bold;
+        }
+        .description-dropdown {
+          align-items: center;
+        }
+        .duties {
+          @include v-stack-c;
+          text-align: left;
+          .duty {
+            @include v-mar;
             color: var(--inactive);
-            font-size: $txt-md;
+            font-style: italic;
+          }
+        }
+        .bulletpoint {
+          color: var(--secondary) !important;
+        }
+        .courses {
+          @include v-stack-c;
+          @include v-pad;
+          @include h-center;
+          width: -webkit-fit-content;
+          width: -moz-fit-content;
+          width: fit-content;
+          text-align: left;
+          border-spacing: $gap-lg $gap-sm;
+          .course {
+            .name,
+            .terms {
+              color: var(--inactive);
+              font-size: $txt-md;
+            }
           }
         }
       }

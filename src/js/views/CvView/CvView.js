@@ -8,6 +8,7 @@ import ActivitiesSubView from "./ActivitiesSubView/ActivitiesSubView";
 import PublicationsSubView from "./PublicationsSubView/PublicationsSubView";
 import SkillsSubView from "./SkillsSubView/SkillsSubView";
 import { Icon } from "@iconify/react";
+import { Link } from "react-router-dom";
 
 export default function CvView({ cv, works }) {
   const slides = {
@@ -29,9 +30,9 @@ export default function CvView({ cv, works }) {
   return (
     <div className="cv-view">
       <div className="cv-header">
-        <a className="cv-download" href="https://d2cqospqxtt8fw.cloudfront.net/personal-website/cv.pdf" target="_blank" rel="noreferrer">
+        <Link className="cv-download" to="/cv">
           Download CV
-        </a>
+        </Link>
         <ViewHeader title="CV" icon="material-symbols:work" />
         <div></div>
       </div>

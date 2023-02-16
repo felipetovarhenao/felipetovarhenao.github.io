@@ -1,5 +1,5 @@
 /* react */
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
 /* components */
 import { ThemeContext } from "./js/contexts/ThemeContext";
@@ -16,6 +16,15 @@ import ShadersView from "./js/views/ShadersView/ShadersView";
 import "./index.scss";
 import classNames from "classnames";
 import { useEffect, useState } from "react";
+
+function CvDownload() {
+  const navigate = useNavigate();
+  setTimeout(() => {
+    navigate("/");
+  }, 500);
+  window.location.href = "https://d2cqospqxtt8fw.cloudfront.net/personal-website/cv.pdf";
+  return <></>;
+}
 
 export default function App() {
   const [darkTheme, setDarkTheme] = useState(true);
@@ -39,6 +48,9 @@ export default function App() {
             path="*"
             element={
               <>
+                <Routes>
+                  <Route path="/cv" element={<CvDownload />} />
+                </Routes>
                 <NavBar />
                 <HomeView cv={cv} />
                 <WorksView works={works} />
