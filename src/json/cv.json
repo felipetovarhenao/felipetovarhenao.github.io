@@ -597,6 +597,22 @@
 		},
 		"software": [
 			{
+				"name": "IMP",
+				"url": "https://github.com/felipetovarhenao/imp",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"Python",
+					"pillow",
+					"sklearn",
+					"mosaicking",
+					"cv2",
+					"Yung Jake"
+				],
+				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/imp/main/examples/starry-night-example.gif",
+				"description": "Python module for flexible, corpus-based icon mosaicking, inspired by Yung Jake's emoji art."
+			},
+			{
 				"name": "SISA",
 				"url": "https://youtu.be/KG80_HL_rvQ",
 				"year": 2023,
