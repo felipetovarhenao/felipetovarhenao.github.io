@@ -597,8 +597,8 @@
 		},
 		"software": [
 			{
-				"name": "😈 IMP",
-				"url": "https://github.com/felipetovarhenao/imp",
+				"name": "articon",
+				"url": "https://github.com/felipetovarhenao/articon",
 				"year": 2023,
 				"active": true,
 				"keywords": [
@@ -609,7 +609,7 @@
 					"cv2",
 					"Yung Jake"
 				],
-				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/imp/main/examples/starry-night-example.gif",
+				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/articon/main/examples/starry-night-example.gif",
 				"description": "Python module for flexible, corpus-based icon mosaicking, inspired by Yung Jake's emoji art."
 			},
 			{
@@ -655,6 +655,7 @@
 				"active": true,
 				"keywords": [
 					"Python",
+					"librosa",
 					"DSP",
 					"Granulation",
 					"MIR",
