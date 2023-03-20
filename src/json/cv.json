@@ -222,7 +222,7 @@
 				"country": "USA",
 				"duties": [
 					"Developing new works for guest and resident artists at the Chicago Center for Contemporary Composition",
-					"Teaching introductory undegraduate music courses and teaching private composition lessons",
+					"Teaching introductory undergraduate music courses and teaching private composition lessons",
 					"Attending and participating in composition colloquia, events, and concerts"
 				],
 				"courses": [
@@ -254,7 +254,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"duties": [
-					"Teaching undegraduate and graduate courses in music theory, including counterpoint and advising graduate students' thesis projects"
+					"Teaching undergraduate and graduate courses in music theory, including counterpoint and advising graduate students' thesis projects"
 				],
 				"courses": [
 					{
@@ -285,7 +285,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"duties": [
-					"Teaching undegraduate and graduate courses in music theory and composition lessons, including counterpoint and advising graduate students' thesis projects"
+					"Teaching undergraduate and graduate courses in music theory and composition lessons, including counterpoint and advising graduate students' thesis projects"
 				],
 				"courses": [
 					{
@@ -596,6 +596,21 @@
 			]
 		},
 		"software": [
+			{
+				"name": "MIDI improviser",
+				"url": "https://felipe-tovar-henao.com/midi-improviser",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"ReactJS",
+					"Midi",
+					"markov",
+					"mir",
+					"ml"
+				],
+				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/midi-improviser.jpg",
+				"description": "MIDI improviser is a web application that automatically generates music as a MIDI file, based on one or more MIDI input files provided by the user"
+			},
 			{
 				"name": "articon",
 				"url": "https://github.com/felipetovarhenao/articon",
