@@ -604,12 +604,12 @@
 				"keywords": [
 					"ReactJS",
 					"Midi",
-					"markov",
-					"mir",
-					"ml"
+					"Markov",
+					"MIR",
+					"ML"
 				],
 				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/midi-improviser.jpg",
-				"description": "MIDI improviser is a web application that automatically generates music as a MIDI file, based on one or more MIDI input files provided by the user"
+				"description": "MIDI improviser is a web application that generates a polyphonic music improvisation as a MIDI file, based on one or more MIDI files provided by the user."
 			},
 			{
 				"name": "articon",
