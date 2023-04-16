@@ -851,6 +851,17 @@
 		],
 		"other": [
 			{
+				"name": "The Sound of AI Accelerator",
+				"url": "https://thesoundofai.com/accelerator.html",
+				"type": "Startup accelerator",
+				"institution": "The Sound of AI",
+				"location": "Online",
+				"date": [
+					"2023-04-11",
+					"2023-07-02"
+				]
+			},
+			{
 				"name": "Web Programming with Python and JavaScript",
 				"url": "https://cs50.harvard.edu/certificates/3103c24f-ed06-40c7-a599-aab9b2af9507",
 				"type": "Professional certificate",
