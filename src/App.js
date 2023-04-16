@@ -1,5 +1,5 @@
 /* react */
-import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 
 /* components */
 import { ThemeContext } from "./js/contexts/ThemeContext";
