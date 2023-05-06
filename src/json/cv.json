@@ -4,18 +4,18 @@
 		"labels": [
 			"composer",
 			"developer",
-			"educator"
+			"researcher"
 		],
 		"image": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/desktop-headshot-small.jpg",
 		"email": "felipe.tovar.henao@gmail.com",
 		"phone": "(310) 539-5831",
 		"url": "https://felipe-tovar-henao.com",
 		"summary": [
-			"Felipe Tovar-Henao is a Colombian composer and software developer who specializes in computer-assisted creativity, procedural art, and music information retrieval. His creative work is deeply rooted in aesthetic experiences with technology, philosophy, and cinema, and often focuses on exploring sound perception, memory, and recognition.",
+			"Felipe Tovar-Henao is a Colombian composer, software developer, and researcher, who specializes in computer-assisted creativity, procedural art, and music information retrieval. His creative work is deeply rooted in aesthetic experiences with technology, philosophy, and cinema, and often focuses on exploring sound perception, memory, and recognition.",
 			"Recent highlights include being a resident composer at the 2022 Mizzou International Composers Festival, being a finalist of the 2019 SEAMUS/ASCAP Award, as well as receiving the 2018 SCI/ASCAP Student Commission Award and the 2018 ASCAP Foundation Morton Gould Young Composer Award.",
 			"His music has been performed by international artists and ensembles such as Alarm Will Sound, Grossman Ensemble, Quatuor Diotima, Sound Icon, IU New Music Ensemble, AURA Contemporary Ensemble, Hear no Evil, Sociedad de Música de Cámara de Bogotá, Ensamble Periscopio, Andrés Orozco-Estrada, Orquesta Sinfónica EAFIT, among many others.",
 			"He has been a featured composer at a variety of international festivals such as WOCMAT (Taiwan, 2019), Electroacoustic Barn Dance (US, 2019), SCI National Conference (US, 2019), SEAMUS National Conference (US, 2019, '18), Seoul International Computer Music Festival (South Korea, 2017), IRCAM's CIEE Summer Contemporary Music Creation + Critique Program and ManiFeste Academy (France, 2016), Electroacoustic Music Midwest (US, 2016), and the Midwest Composer Symposium (US, 2019, '16).",
-			"He has held teaching and research positions, such as the 2021/22 CCCC Postdoctoral Researcher at the University of Chicago, Associate Instructor and Coordinator of the IU JSoM Composition Department (2017-'20), as well as Adjunct Professor in Music Theory and Composition at Universidad EAFIT (2020-'21), where he currently teaches."
+			"He has held research and teaching positions at different institutions, including the 2021/22 CCCC Postdoctoral Researcher at the University of Chicago, Associate Instructor and Coordinator of the IU JSoM Composition Department, as well as Adjunct Professor in Music Theory and Composition at Universidad EAFIT. He currently serves as the 2023/25 Charles H. Turner Postdoctoral Fellow in Music Composition at the University of Cincinnaty's College-Conservatory of Music."
 		],
 		"interests": [
 			"machine learning",
@@ -125,10 +125,10 @@
 				"country": "Colombia (remote)",
 				"date": [
 					2022,
-					true
+					2023
 				],
 				"duties": [
-					"Development and deployment of a full-stack web application for designing and managing different administrative pipelines within the company"
+					"Development of a full-stack web application for designing and managing different administrative pipelines within the company"
 				]
 			},
 			{
@@ -190,7 +190,7 @@
 				"country": "Germany (remote)",
 				"date": [
 					2022,
-					true
+					2023
 				],
 				"duties": [
 					"SEO writing and optimization of articles on music theory and online piano learning for the company's content magazine"
@@ -211,6 +211,18 @@
 			}
 		],
 		"academic": [
+			{
+				"name": "Charles H. Turner Postdoctoral Fellow in Music Composition",
+				"date": [
+					2023,
+					true
+				],
+				"workplace": "University of Cincinnati's College-Conservatory of Music",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"duties": [],
+				"courses": []
+			},
 			{
 				"name": "Postdoctoral Researcher in Music Composition",
 				"date": [
@@ -248,7 +260,7 @@
 				"name": "Lecturer in Music Theory",
 				"date": [
 					2022,
-					true
+					2023
 				],
 				"workplace": "Music Department. Universidad EAFIT",
 				"city": "Medellín, Antioquia",
@@ -853,7 +865,7 @@
 			{
 				"name": "The Sound of AI Accelerator",
 				"url": "https://thesoundofai.com/accelerator.html",
-				"type": "Startup accelerator",
+				"type": "Startup program",
 				"institution": "The Sound of AI",
 				"location": "Online",
 				"date": [

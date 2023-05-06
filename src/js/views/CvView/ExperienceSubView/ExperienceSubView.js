@@ -26,20 +26,22 @@ export default function ExperienceSubView({ work }) {
                     </span>
                     <span className="date">
                       {position.date[1]
-                        ? `${position.date[0]}–${position.date[1] === maxValue ? "pr." : String(position.date[1]).slice(2, 4)}`
+                        ? `${position.date[0]}–${
+                            position.date[1] === maxValue || position.date[1] === true ? "pr." : String(position.date[1]).slice(2, 4)
+                          }`
                         : position.date[0]}
                     </span>
-                    {position.duties && (
+                    {position.duties.length > 0 && (
                       <Dropdown className={"description-dropdown"} legendOpen={"hide description"} legendClosed="show description">
                         <div className="duties">
-                          {position.courses && <>Responsibilities:</>}
-                          {position.duties.map((duty, i) => (
+                          {position.courses?.length > 0 && <>Responsibilities:</>}
+                          {position.duties?.map((duty, i) => (
                             <span className="duty" key={i}>
                               <span className="bulletpoint">•</span> {duty}
                             </span>
                           ))}
                         </div>
-                        {position.courses && (
+                        {position.courses?.length > 0 && (
                           <table className="courses">
                             <thead>
                               <tr>
