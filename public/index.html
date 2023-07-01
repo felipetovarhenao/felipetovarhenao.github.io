@@ -29,11 +29,13 @@
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TVWZH06KXS"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    if (window.origin.includes("felipe-tovar-henao.com")) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-    gtag('config', 'G-TVWZH06KXS');
+      gtag('config', 'G-TVWZH06KXS');
+    }
   </script>
   <!-- fonts -->
   <link
