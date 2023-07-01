@@ -11,7 +11,7 @@
 		"phone": "(310) 539-5831",
 		"url": "https://felipe-tovar-henao.com",
 		"summary": [
-			"Felipe Tovar-Henao is a Colombian composer, software developer, and researcher, who specializes in computer-assisted creativity, procedural art, and music information retrieval. His creative work is deeply rooted in aesthetic experiences with technology, philosophy, and cinema, and often focuses on exploring sound perception, memory, and recognition.",
+			"Felipe Tovar-Henao is a Colombian composer, full-stack software developer, and researcher, who specializes in computer-assisted creativity, procedural art, and music information retrieval. His creative work is deeply rooted in aesthetic experiences with technology, philosophy, and cinema, and often focuses on exploring sound perception, memory, and recognition.",
 			"Recent highlights include being a resident composer at the 2022 Mizzou International Composers Festival, being a finalist of the 2019 SEAMUS/ASCAP Award, as well as receiving the 2018 SCI/ASCAP Student Commission Award and the 2018 ASCAP Foundation Morton Gould Young Composer Award.",
 			"His music has been performed by international artists and ensembles such as Alarm Will Sound, Grossman Ensemble, Quatuor Diotima, Sound Icon, IU New Music Ensemble, AURA Contemporary Ensemble, Hear no Evil, Sociedad de Música de Cámara de Bogotá, Ensamble Periscopio, Andrés Orozco-Estrada, Orquesta Sinfónica EAFIT, among many others.",
 			"He has been a featured composer at a variety of international festivals such as WOCMAT (Taiwan, 2019), Electroacoustic Barn Dance (US, 2019), SCI National Conference (US, 2019), SEAMUS National Conference (US, 2019, '18), Seoul International Computer Music Festival (South Korea, 2017), IRCAM's CIEE Summer Contemporary Music Creation + Critique Program and ManiFeste Academy (France, 2016), Electroacoustic Music Midwest (US, 2016), and the Midwest Composer Symposium (US, 2019, '16).",
@@ -128,7 +128,7 @@
 					2023
 				],
 				"duties": [
-					"Development of a full-stack web application for designing and managing different administrative pipelines within the company"
+					"Develop a full-stack web application for creating and managing administrative and operational pipelines within the company"
 				]
 			},
 			{
@@ -141,7 +141,7 @@
 					false
 				],
 				"duties": [
-					"Editing and copying of digitally engraved scores and instrumental parts for the U.S. Army Band"
+					"Digitally edit, copy, and engrave scores and instrumental parts for the U.S. Army Band"
 				]
 			},
 			{
@@ -154,7 +154,7 @@
 					false
 				],
 				"duties": [
-					"Managing and editing digital records from a variety of achives and collections of traditional music"
+					"Manage and edit digital records from a variety of achives and collections of traditional music"
 				]
 			},
 			{
@@ -167,7 +167,7 @@
 					2017
 				],
 				"duties": [
-					"Editing and copying of digitally engraved scores and instrumental parts for composition faculty members"
+					"Digitally edit, copy, and engrave scores and instrumental parts for composition faculty members"
 				]
 			},
 			{
@@ -180,7 +180,7 @@
 					2017
 				],
 				"duties": [
-					"Coordinating rehearsals, meetings, and deadlines for all participating student and faculty members in the \"Double Exposure\" collaboration project between the Composition Department and the The Media School at IU"
+					"Coordinate rehearsals, meetings, and deadlines for all participating student and faculty members in the \"Double Exposure\" collaboration project between the Composition Department and the The Media School at IU"
 				]
 			},
 			{
@@ -206,7 +206,7 @@
 					2016
 				],
 				"duties": [
-					"Making custom arrangments of traditional Latin American music songs for the student-led IU Latin American Ensemble"
+					"Make custom arrangments of traditional Latin American music songs for the student-led IU Latin American Ensemble"
 				]
 			}
 		],
@@ -220,7 +220,11 @@
 				"workplace": "University of Cincinnati's College-Conservatory of Music",
 				"city": "Cincinnati, OH",
 				"country": "USA",
-				"duties": [],
+				"duties": [
+					"Develop new works for university and student ensembles",
+					"Teach graduate courses in music theory and composition",
+					"Attend and participate in composition colloquia, events, and concerts"
+				],
 				"courses": []
 			},
 			{
@@ -233,9 +237,9 @@
 				"city": "Chicago, IL",
 				"country": "USA",
 				"duties": [
-					"Developing new works for guest and resident artists at the Chicago Center for Contemporary Composition",
-					"Teaching introductory undergraduate music courses and teaching private composition lessons",
-					"Attending and participating in composition colloquia, events, and concerts"
+					"Develop new works for guest and resident artists at the Chicago Center for Contemporary Composition",
+					"Teach introductory undergraduate music courses and teaching private composition lessons",
+					"Attend and participate in composition colloquia, events, and concerts"
 				],
 				"courses": [
 					{
@@ -266,7 +270,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"duties": [
-					"Teaching undergraduate and graduate courses in music theory, including counterpoint and advising graduate students' thesis projects"
+					"Teach undergraduate and graduate courses in music theory, including counterpoint and advising graduate students' thesis projects"
 				],
 				"courses": [
 					{
@@ -297,7 +301,7 @@
 				"city": "Medellín, Antioquia",
 				"country": "Colombia",
 				"duties": [
-					"Teaching undergraduate and graduate courses in music theory and composition lessons, including counterpoint and advising graduate students' thesis projects"
+					"Teach undergraduate and graduate courses in music theory and composition lessons, including counterpoint and advising graduate students' thesis projects"
 				],
 				"courses": [
 					{
@@ -324,8 +328,8 @@
 				"city": "Bloomington, IN",
 				"country": "USA",
 				"duties": [
-					"Teaching undergraduate music and composition courses, including counterpoint, instrumentation and composition seminar",
-					"Organizing events and coordinating activities for IU Composition Department students and faculty members"
+					"Teach undergraduate music and composition courses, including counterpoint, instrumentation and composition seminar",
+					"Organize events and coordinate activities for IU Composition Department students and faculty members"
 				],
 				"courses": [
 					{
