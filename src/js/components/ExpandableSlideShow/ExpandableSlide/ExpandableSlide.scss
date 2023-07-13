@@ -53,12 +53,9 @@
       --center-col: var(--bg3trans);
     }
     background: linear-gradient(
-      -61deg,
-      var(--bord-trans),
-      var(--bord-trans) 20%,
-      var(--center-col) 20.01%,
-      var(--center-col) 80%,
-      var(--bord-trans) 80.01%
+      60deg,
+      var(--bord-trans) 0%,
+      var(--center-col) 100%
     );
     &:hover {
       background-color: var(--bg-hl-trans);
