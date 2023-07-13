@@ -2,7 +2,7 @@
 @import "../../../sass/variables.scss";
 
 .view-header {
-  @include v-pad;
+  @include v-pad($gap-xl);
   text-align: center;
   .title {
     font-size: $txt-xl;

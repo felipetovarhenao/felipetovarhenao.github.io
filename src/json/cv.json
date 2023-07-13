@@ -613,6 +613,24 @@
 		},
 		"software": [
 			{
+				"name": "nootone",
+				"url": "https://nootone.io/",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"ReactJS",
+					"Typescript",
+					"Redux",
+					"Midi",
+					"Web Audio API",
+					"AI",
+					"MIR",
+					"ML"
+				],
+				"artwork": "https://dxbtnxd6vjk30.cloudfront.net/images/app-screenshot.png",
+				"description": "A smart music sketchbook app to record and develop musical ideas easily, anywhere, in seconds."
+			},
+			{
 				"name": "MIDI improviser",
 				"url": "https://felipe-tovar-henao.com/midi-improviser",
 				"year": 2023,
