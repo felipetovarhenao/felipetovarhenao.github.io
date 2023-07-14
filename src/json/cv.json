@@ -971,12 +971,12 @@
 				]
 			},
 			{
-				"name": "Javascript",
-				"level": 1,
+				"name": "Javascript/Typescript",
+				"level": 0,
 				"keywords": [
 					"react",
 					"react-router",
-					"jsx",
+					"redux",
 					"web audio API",
 					"canvas API"
 				]
