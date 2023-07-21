@@ -56,6 +56,24 @@
     font-style: italic;
     max-width: 600px;
   }
+  .checkout {
+    @include h-stack;
+    @include v-pad;
+    width: 100%;
+    justify-content: center;
+    .checkout__link {
+      @include round-border;
+      @include clickable;
+      @include vh-pad($gap-md, $gap-lg);
+      background-color: var(--bord);
+      &:hover {
+        background-color: var(--secondary);
+      }
+      color: white;
+      font-size: $txt-sm;
+      text-transform: uppercase;
+    }
+  }
   .table {
     border-spacing: $gap-lg $gap-lg;
     .table-body {

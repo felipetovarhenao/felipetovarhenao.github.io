@@ -6,6 +6,12 @@
 		"notes": "\tphase i: reflection\n\tphase ii: masking/denaturing\n\tphase iii: masking/absence\n\tphase iv: simulacrum\n\nIn Simulacra and Simulation (1981), French sociologist Jean Baudrillard questions the extent to which contemporary Western culture and society can be said to be rooted in reality, as opposed to symbolically mediated simulations of it.\n\nThese simulations or representations can be further differentiated according to the degree of detachment from their original, going from transparent copies, to counterfeit, to simulacra — copies that precede their original, or have no original whatsoever.\n\nIn «Simulacra», free re-interpretations of these ideas appear, where the duality of the original and its copies are found in the use of instruments and recordings of them, acoustic vs. electroacoustic sounds, real vs. simulated speech, or musical materials and their different instantiations.",
 		"duration": 11,
 		"artwork": "https://i1.sndcdn.com/artworks-1QydimV8qvQZU5Xe-uNhMHw-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/3gkWcc"
+			}
+		],
 		"instrumentation": [
 			"fl/afl",
 			"ob",
@@ -248,6 +254,12 @@
 		"notes": "The title of this piece, «Di.ver.ti.men.to», refers to both the spirit of playfulness in which it was written, as well as its source material, the 1st movement from W. A. Mozart’s Divertimento in E flat K.563 for String Trio.\n\nBorrowing from sampling and remix traditions, the piece consists exclusively of short segments from Mozart’s work, each individually re-arranged and manipulated in different ways — .e.g., transposed, stretched, spectrally distorted, etc. — to create a dance-like, disjointed, humorous, and sometimes riotous experience.",
 		"duration": 6,
 		"artwork": "https://i1.sndcdn.com/artworks-LUw8ldlCW7VufOgU-N6CwMQ-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/RW0I84"
+			}
+		],
 		"instrumentation": [
 			"vn",
 			"va",
@@ -291,6 +303,12 @@
 		"notes": "«Canticum» is an interplay between contemplative and discursive musical moments, delineated by a gradual trajectory from immersive, resonant sounds to more energetic and bright bursts of energy. Its slow-evolving nature is meant to open the possibility for listeners to experience these sounds with different levels of focus, ranging from a soundscape to a foregrounded musical experience.",
 		"duration": 5,
 		"artwork": "https://pbs.twimg.com/media/FSlhZcbWIAESdik.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/THqVeb"
+			}
+		],
 		"instrumentation": [
 			"carillon"
 		],
@@ -395,10 +413,14 @@
 		"notes": "«Ruido, ceniza» takes gradual change as a foundation for musical discourse, and heavily relies on smooth interpolations between different types of fast, periodic sounds. Slow, seamless transitions between these sounds become then paramount, highlighting the interplay between degrees of instrumental control and lack thereof. These circumstances inevitably require the player to actively take part in narrowing down the sound possibilities, both prior to and during the performance, resulting in a noise-based minimalism of sorts. The piece can be performed by any number of string instruments as long as they're amplified.",
 		"duration": 8,
 		"artwork": "https://i1.sndcdn.com/artworks-Z5NyE3Y1kC6VtE8y-TYB36w-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/3cHkrG"
+			}
+		],
 		"instrumentation": [
-			"vn",
-			"va",
-			"vc"
+			"va"
 		],
 		"commission": "Commissioned by Estéban Hernández Parra",
 		"categories": [
@@ -542,8 +564,15 @@
 		"notes": "Primarily a medical term for lack of control over bodily movements, «Ataxia» [a- ‘without’ + taxis ’order’] delves into the musical significance of tensions between smoothness and irregularity, as well as invariance and change. These tensions are explored at different temporal scales, from the destabilization of short musical gestures, to semi-gradual, almost abrupt transitions between larger sections.\n\nThe lyrical and expressive qualities traditionally associated with this instrument are also subject to this idea, by imposing less conventional, technical challenges to it. Additionally, subtle dramatic components are introduced throughout the performance to elucidate a struggle for control between technology and the human body.",
 		"duration": 6,
 		"artwork": "https://i1.sndcdn.com/artworks-4QsRng99yURQNefG-PDH5Iw-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/NYe2Ad"
+			}
+		],
 		"instrumentation": [
-			"eh"
+			"eh",
+			"elec"
 		],
 		"commission": "Commissioned by Jake Gunnar Walsh",
 		"categories": [
@@ -675,6 +704,12 @@
 		"notes": "«Arborescencia» circles around utterances of tree-like gestures and representations in music, taking the phenomenon of branching as a metaphor or model to derive musical events from. This tendency manifests itself both vertically — timbre and harmony — and horizontally — duration, rhythm, and time — with a particular emphasis on the perceptual domain.\n\nThe listener might then be able to notice instantiations of arborescence through the segmentation of the flute sound into multiple spectral strands, entangled rhythms that arise from juxtaposition of echoes, harmonies that stem and grow from the flute lines, or hierarchically established repetitions and fragmentations of sound sequences. Just like in trees, one might also occasionally hear semblances of chirps and warbles of the birds that inhabit them.",
 		"duration": 9,
 		"artwork": "https://i1.sndcdn.com/artworks-000643478908-qr15hu-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/hvjimE"
+			}
+		],
 		"instrumentation": [
 			"fl",
 			"elec"
@@ -1036,6 +1071,12 @@
 		"notes": "Every two years, a six-day carnival is held in a small Colombian town called «Riosucio». A carnival in which the Devil himself is the main figure and host; not as the commonly known biblical and malign force, but rather as a satirical, hedonistic and irreverent being who welcomes everyone to join in for celebration: a celebration that, in its core, is as structured as any other ritual or ceremony.\n\nIt is then, in the spirit of capturing the excitement and eccentricity of this weird festivity, that «¡Carnaval del Diablo!» is brought to music and pays tribute — in a very strange manner — to diversion, euphoria and pleasure.",
 		"duration": 6,
 		"artwork": "https://i1.sndcdn.com/artworks-000455144544-ukaaaz-t500x500.jpg",
+		"checkout": [
+			{
+				"type": "score",
+				"url": "https://checkout.chec.io/IDyojb"
+			}
+		],
 		"instrumentation": [
 			"cl",
 			"elec"

@@ -20,6 +20,15 @@ export default function WorkModal({ work, open, setOpen }) {
           <span className="work-commission">{work.commission}</span>
         </div>
         {work.notes && <div className="notes">{work.notes}</div>}
+        {work.checkout && (
+          <div className="checkout">
+            {work.checkout.map((item) => (
+              <a target="_blank" rel="noreferrer" href={item.url} className="checkout__link" key={item}>
+                buy {item.type}
+              </a>
+            ))}
+          </div>
+        )}
         <table className="table">
           <tbody className="table-body">
             {tableRows.map((row, i) => {
