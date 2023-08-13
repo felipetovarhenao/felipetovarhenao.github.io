@@ -3,6 +3,7 @@ import Modal from "../Modal/Modal";
 import formatDate from "../../utils/formatDate";
 import { Icon } from "@iconify/react";
 import sortByDateString from "../../utils/sortByDateString";
+import eventTracker from "../../utils/eventTracker";
 
 export default function WorkModal({ work, open, setOpen }) {
   const tableRows = ["categories", "instrumentation", "awards", "performances"];
@@ -23,7 +24,14 @@ export default function WorkModal({ work, open, setOpen }) {
         {work.checkout && (
           <div className="checkout">
             {work.checkout.map((item) => (
-              <a target="_blank" rel="noreferrer" href={item.url} className="checkout__link" key={item}>
+              <a
+                onClick={() => eventTracker("buy_score", { label: work.name })}
+                target="_blank"
+                rel="noreferrer"
+                href={item.url}
+                className="checkout__link"
+                key={item}
+              >
                 buy {item.type}
               </a>
             ))}
@@ -60,12 +68,24 @@ export default function WorkModal({ work, open, setOpen }) {
                                   ))}
                               </div>
                               {d.audio && (
-                                <a href={d.audio} target="_blank" rel="noreferrer" className="media audio">
+                                <a
+                                  onClick={() => eventTracker("listen_work", { label: work.name })}
+                                  href={d.audio}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="media audio"
+                                >
                                   <Icon icon="wpf:audio-wave" />
                                 </a>
                               )}
                               {d.video && (
-                                <a href={`https://youtube.com/watch?v=${d.video}`} target="_blank" rel="noreferrer" className="media video">
+                                <a
+                                  onClick={() => eventTracker("watch_work", { label: work.name })}
+                                  href={`https://youtube.com/watch?v=${d.video}`}
+                                  target="_blank"
+                                  rel="noreferrer"
+                                  className="media video"
+                                >
                                   <Icon icon="mdi:youtube" />
                                 </a>
                               )}

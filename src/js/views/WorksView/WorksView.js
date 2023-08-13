@@ -3,6 +3,7 @@ import WorkCard from "../../components/WorkCard/WorkCard";
 import WorkModal from "../../components/WorkModal/WorkModal";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { useState } from "react";
+import eventTracker from "../../utils/eventTracker";
 
 export default function WorksView({ works }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -23,6 +24,7 @@ export default function WorksView({ works }) {
                 onClick={() => {
                   setIsModalOpen(true);
                   setSelectedWork(work);
+                  eventTracker("view_work", { label: work.name });
                 }}
               />
             ))}

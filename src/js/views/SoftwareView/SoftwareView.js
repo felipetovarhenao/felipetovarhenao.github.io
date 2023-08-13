@@ -2,6 +2,7 @@ import "./SoftwareView.scss";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 import { Icon } from "@iconify/react";
 import Card from "../../components/Card/Card";
+import eventTracker from "../../utils/eventTracker";
 
 export default function SoftwareView({ cv }) {
   const tableRows = ["year", "active", "keywords", "description"];
@@ -17,7 +18,14 @@ export default function SoftwareView({ cv }) {
           .sort((a, b) => b.year - a.year)
           .map((software, i) => (
             <Card key={i} className="software" img={software.artwork}>
-              <a href={software.url} target="_blank" rel="noreferrer">
+              <a
+                href={software.url}
+                onClick={() => {
+                  eventTracker("view_software", { label: software.name });
+                }}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span className="name">{software.name}</span>
                 <table className="table">
                   <tbody className="tbody">

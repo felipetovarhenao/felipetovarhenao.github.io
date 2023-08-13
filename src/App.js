@@ -17,6 +17,8 @@ import "./index.scss";
 import classNames from "classnames";
 import { useEffect, useState } from "react";
 
+import ReactGA from "react-ga4";
+
 function CvDownload() {
   const navigate = useNavigate();
   setTimeout(() => {
@@ -38,6 +40,10 @@ export default function App() {
       setDarkTheme(true);
     }
   }, []);
+
+  ReactGA.initialize("G-TVWZH06KXS", {
+    testMode: !window.origin.includes("felipe-tovar-henao.com"),
+  });
 
   return (
     <div className={appClass}>

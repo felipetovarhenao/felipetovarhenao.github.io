@@ -2,6 +2,7 @@ import classNames from "classnames";
 import { Icon } from "@iconify/react";
 import "./TextWidget.scss";
 import { useState } from "react";
+import eventTracker from "../../utils/eventTracker";
 
 export default function TextWidget({ children, label }) {
   const [show, setShow] = useState(false);
@@ -11,7 +12,13 @@ export default function TextWidget({ children, label }) {
   };
   return (
     <div className="text-widget">
-      <div className="text-widget-btn" onClick={() => setShow((x) => !x)}>
+      <div
+        className="text-widget-btn"
+        onClick={() => {
+          eventTracker("toggle_bio");
+          setShow((x) => !x);
+        }}
+      >
         <Icon icon={iconMap[!show ? "open" : "closed"]} className="icon" />
         <span className="text">
           {show ? "hide" : "show"} {label}
