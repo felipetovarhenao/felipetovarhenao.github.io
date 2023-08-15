@@ -711,7 +711,7 @@
 					"ML",
 					"audio"
 				],
-				"artwork": "https://warehouse-camo.ingress.cmh1.psfhosted.org/4f00e68d336fde659e9353046093bdc68b9cffed/68747470733a2f2f7374617469632e7769787374617469632e636f6d2f6d656469612f3938613165625f34646263333431666661623034393936613339363137626634653631313762667e6d76322e706e672f76312f66696c6c2f775f3835362c685f3533342c616c5f632c715f39302c75736d5f302e36365f312e30305f302e30312f6c6f676f2e77656270",
+				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/gamut/main/gamut/gui/data/images/logo.png",
 				"description": "High-level, user-friendly granular audio musaicing toolkit implemented in Python, using ML and MIR techniques."
 			},
 			{
