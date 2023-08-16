@@ -84,6 +84,25 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Alarm Will Sound",
+				"date": "2024-03-26",
+				"performers": [
+					{
+						"name": "Alan Pierson",
+						"role": "conductor"
+					},
+					{
+						"name": "Alarm Will Sound",
+						"role": "ensemble"
+					}
+				],
+				"venue": "Carnegie Hall's Judy and Arthur Zankel Hall",
+				"city": "New York City, NY",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Alarm Will Sound: Eight world premieres",
 				"date": "2022-07-30",
 				"performers": [
