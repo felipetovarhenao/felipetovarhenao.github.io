@@ -361,8 +361,24 @@
 		],
 		"lectures": [
 			{
-				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in my recent works",
+				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in recent works",
 				"events": [
+					{
+						"language": "English",
+						"name": "Composition Symposium",
+						"date": "2023-08-31",
+						"venue": "Mary Emery Hall, Room 3230",
+						"city": "Cincinnati, OH",
+						"country": "USA"
+					},
+					{
+						"language": "Spanish",
+						"name": "Ear Candy Meetings",
+						"date": "2023-08-30",
+						"venue": "Virtual event",
+						"city": "CDMX",
+						"country": "México"
+					},
 					{
 						"language": "Spanish",
 						"name": "Coloquio de Composición",
