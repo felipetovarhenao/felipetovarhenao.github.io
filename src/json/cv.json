@@ -629,6 +629,22 @@
 		},
 		"software": [
 			{
+				"name": "just intuition",
+				"url": "https://felipe-tovar-henao.com/just-intuition",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"ReactJS",
+					"Typescript",
+					"Redux",
+					"Just intonation",
+					"Education",
+					"tuning theory"
+				],
+				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/just-intuition.jpg",
+				"description": "A simple educational web app that helps you assess, test, and improve your intuition on rational representations of pitches and intervals in the context of just intonation and tuning theory more broadly."
+			},
+			{
 				"name": "nootone",
 				"url": "https://nootone.io/",
 				"year": 2023,
@@ -676,21 +692,6 @@
 				],
 				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/articon/main/examples/starry-night-example.gif",
 				"description": "Python module for flexible, corpus-based icon mosaicking, inspired by Yung Jake's emoji art."
-			},
-			{
-				"name": "SISA",
-				"url": "https://youtu.be/KG80_HL_rvQ",
-				"year": 2023,
-				"active": true,
-				"keywords": [
-					"ReactJS",
-					"Formik",
-					"Django",
-					"DRF",
-					"SQL"
-				],
-				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/SISA_thumbnail.png",
-				"description": "SISA (Sistema integrado de solicitudes administrativas) is a full-stack web application for streamlining administrative tasks at Distecsa S.A.S."
 			},
 			{
 				"name": "scattergrain",
