@@ -225,7 +225,12 @@
 					"Teach graduate courses in music theory and composition",
 					"Attend and participate in composition colloquia, events, and concerts"
 				],
-				"courses": []
+				"courses": [
+					{
+						"name": "COMP5111: Special Topics in Composition: Alternate Tuning Systems",
+						"terms": "Spring 2024"
+					}
+				]
 			},
 			{
 				"name": "Postdoctoral Researcher in Music Composition",
