@@ -748,6 +748,21 @@
 		],
 		"performances": [
 			{
+				"event": "Sonic explorations",
+				"date": "2023-10-17",
+				"performers": [
+					{
+						"name": "Julianna Eidle",
+						"role": "flute"
+					}
+				],
+				"venue": "Cohen Studio Theater",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Indiana University Center for Electronic and Computer Music: Fall concert",
 				"date": "2018-12-02",
 				"performers": [
