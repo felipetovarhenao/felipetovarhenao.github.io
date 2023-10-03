@@ -841,17 +841,20 @@
 				"description": "Open-source, light-dependent digital music interface based on Leafcutter John's light thing. Built with Arduino and MaxMSP."
 			},
 			{
-				"name": "rtcmixlib",
-				"url": "https://github.com/felipetovarhenao/rtcmixlib",
-				"year": 2018,
+				"name": "swarmix",
+				"url": "https://github.com/felipetovarhenao/swarmix",
+				"year": 2023,
 				"active": true,
 				"keywords": [
 					"RTcmix",
 					"DSP",
-					"audio"
+					"library",
+					"audio",
+					"math",
+					"data"
 				],
 				"artwork": "https://i.ytimg.com/vi/RQpJuNt3dYk/hqdefault.jpg",
-				"description": "Mixed collection of user-defined RTcmix functions, mainly for easy handling of nested data structures."
+				"description": "Swiss army knife for the RTcmix scripting language. The library includes of a wide variety of functions for data processing, unit conversion, mathematical functions, and more."
 			}
 		]
 	},
