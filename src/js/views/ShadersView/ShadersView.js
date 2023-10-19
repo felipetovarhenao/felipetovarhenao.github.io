@@ -3,7 +3,7 @@ import ShaderToy from "../../components/ShaderToy/ShaderToy";
 import ViewHeader from "../../components/ViewHeader/ViewHeader";
 
 export default function ShadersView() {
-  const shaders = ["7tjSWy", "NtBSRw", "7lBXWR", "NljXzm", "7lSXzz", "NljSz1", "Nt2XzD"];
+  const shaders = ["Ds3fDX", "md3fDX", "Ds3BDl", "7tjSWy", "md3BWB", "NtBSRw", "7lBXWR", "NljXzm", "7lSXzz", "NljSz1", "Nt2XzD"];
   return (
     <>
       <ViewHeader title="shaders" icon="mdi:animation-play" />
