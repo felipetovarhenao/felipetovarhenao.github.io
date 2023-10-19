@@ -1,5 +1,25 @@
 [
 	{
+		"name": "«Efervecencias»",
+		"year": 2023,
+		"subtitle": "for piano and live electronics",
+		"notes": "\tIn progress.",
+		"duration": 7,
+		"artwork": "https://i1.sndcdn.com/artworks-1QydimV8qvQZU5Xe-uNhMHw-t500x500.jpg",
+		"instrumentation": [
+			"pnf",
+			"elec"
+		],
+		"commission": "in progress",
+		"categories": [
+			"large ensemble",
+			"mixed",
+			"electronic"
+		],
+		"awards": false,
+		"performances": []
+	},
+	{
 		"name": "«Simulacra»",
 		"year": 2022,
 		"subtitle": "[re]presentations for large chamber ensemble and electronics",

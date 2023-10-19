@@ -227,7 +227,8 @@
 				],
 				"courses": [
 					{
-						"name": "COMP5111: Special Topics in Composition: Alternate Tuning Systems",
+						"name": "Special Topics in Composition: Alternate Tuning Systems",
+						"code": "COMP5111",
 						"terms": "Spring 2024"
 					}
 				]
@@ -248,19 +249,23 @@
 				],
 				"courses": [
 					{
-						"name": "MUSI 24000/34000: Composition lessons",
+						"name": "Composition lessons",
+						"code": "MUSI 24000/34000",
 						"terms": "Autumn 2021 - Spring 2022"
 					},
 					{
-						"name": "MUSI 29900 Senior Research: Music",
+						"name": "Senior Research: Music",
+						"code": "MUSI 29900",
 						"terms": "Winter 2022 - Spring 2022"
 					},
 					{
-						"name": "MUSI 10300: Introduction to Music: Materials and Design",
+						"name": "Introduction to Music: Materials and Design",
+						"code": "MUSI 10300",
 						"terms": "Spring 2022"
 					},
 					{
-						"name": "MUSI 39900: Independent study (PhD)",
+						"name": "Independent study (PhD)",
+						"code": "MUSI 39900",
 						"terms": "Spring 2022"
 					}
 				]
@@ -279,19 +284,23 @@
 				],
 				"courses": [
 					{
-						"name": "MU0900: Proyecto Final (MM)",
+						"name": "Proyecto Final (MM)",
+						"code": "MU0900",
 						"terms": "Spring 2023"
 					},
 					{
-						"name": "MU0890: Seminario Tutorial (MM)",
+						"name": "Seminario Tutorial (MM)",
+						"code": "MU0890",
 						"terms": "Fall 2022"
 					},
 					{
-						"name": "MU0466: Contrapunto 4",
+						"name": "Contrapunto 4",
+						"code": "MU0466",
 						"terms": "Fall 2022 - Spring 2023"
 					},
 					{
-						"name": "MU0456: Contrapunto 3",
+						"name": "Contrapunto 3",
+						"code": "MU0456",
 						"terms": "Fall 2022 - Spring 2023"
 					}
 				]
@@ -310,15 +319,18 @@
 				],
 				"courses": [
 					{
-						"name": "MU0601-9: Composición",
+						"name": "Composición",
+						"code": "MU0601-9",
 						"terms": "Fall 2020 - Spring 2021"
 					},
 					{
-						"name": "MU0456: Contrapunto 3",
+						"name": "Contrapunto 3",
+						"code": "MU0456",
 						"terms": "Fall 2020 - Spring 2021"
 					},
 					{
-						"name": "MU0900: Proyecto Final (MM)",
+						"name": "Proyecto Final (MM)",
+						"code": "MU0900",
 						"terms": "Spring 2021"
 					}
 				]
@@ -346,19 +358,23 @@
 						"terms": "Fall 2017"
 					},
 					{
-						"name": "MUS-K215: Instrumentation II",
+						"name": "Instrumentation II",
+						"code": "MUS-K215",
 						"terms": "Spring 2018"
 					},
 					{
-						"name": "MUS-I301: Composition Seminar (non-majors)",
+						"name": "Composition Seminar (non-majors)",
+						"code": "MUS-I301",
 						"terms": "Fall 2018 - Spring 2019"
 					},
 					{
-						"name": "MUS-K231: Free Counterpoint I",
+						"name": "Free Counterpoint I",
+						"code": "MUS-K231",
 						"terms": "Fall 2019"
 					},
 					{
-						"name": "MUS-K232: Free Counterpoint II",
+						"name": "Free Counterpoint II",
+						"code": "MUS-K232",
 						"terms": "Spring 2020"
 					}
 				]
