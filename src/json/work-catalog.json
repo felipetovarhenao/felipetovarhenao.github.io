@@ -291,6 +291,29 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "100 year Anniversary of The Azerbaijan State University of Culture and Arts",
+				"date": "2023-11-16",
+				"performers": [
+					{
+						"name": "Süleyman Babakişizadə",
+						"role": "violin"
+					},
+					{
+						"name": "Üzeyir Mahmudbəyli",
+						"role": "viola"
+					},
+					{
+						"name": "Əsmər Kərimli",
+						"role": "cello"
+					}
+				],
+				"venue": "International Mugham Center",
+				"city": "Baku",
+				"country": "Azerbaijan",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Ravinia Festival - NEXUS Chamber Music: Dancing with the Shadow",
 				"date": "2022-08-28",
 				"performers": [
