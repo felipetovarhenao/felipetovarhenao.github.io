@@ -84,8 +84,8 @@
 		"awards": false,
 		"performances": [
 			{
-				"event": "Alarm Will Sound: Self-portraits",
-				"date": "2024-03-26",
+				"event": "Time:Spans Festival",
+				"date": "2024-08-24",
 				"performers": [
 					{
 						"name": "Alan Pierson",
@@ -96,7 +96,7 @@
 						"role": "ensemble"
 					}
 				],
-				"venue": "Carnegie Hall's Judy and Arthur Zankel Hall",
+				"venue": "DiMenna Center for Classical Music",
 				"city": "New York City, NY",
 				"country": "USA",
 				"audio": false,
