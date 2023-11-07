@@ -4,6 +4,10 @@ import ViewHeader from "../../components/ViewHeader/ViewHeader";
 
 export default function ShadersView() {
   const shaders = [
+    "cl3cRS",
+    "DlcyWr",
+    "DlccR7",
+    "dsGBWc",
     "DsGfWR",
     "msyfz1",
     "dsVBRh",
@@ -22,7 +26,7 @@ export default function ShadersView() {
   ];
   return (
     <>
-      <ViewHeader title="shaders" icon="mdi:animation-play" />
+      <ViewHeader title="procedural graphics" icon="mdi:animation-play" />
       <div className="shaders-view">
         {shaders.map((x, i) => (
           <ShaderToy key={i} id={x} className="shader" />
