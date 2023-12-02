@@ -1,23 +1,39 @@
 [
 	{
-		"name": "«Efervecencias»",
+		"name": "«salsa al vapor»",
 		"year": 2023,
-		"subtitle": "for piano and live electronics",
-		"notes": "\tIn progress.",
+		"subtitle": "omaggio for piano and electronics",
+		"notes": "«salsa al vapor» is an homage to and celebration of the late Méxican composer Javier Álvarez (1956-2023), whose eclectic and idiosyncratic music had a transformative impact on my own.\n\nLargely inspired by his 1990’s electroacoustic miniature « Mambo à la Braque », where Álvarez uses samples from Pérez Prado’s mambo, «Caballo negro» to create a cubist-like sound collage, «salsa al vapor» takes the recording of Colombian salsa hit song, «El Preso» by Fruko y sus Tesos, to generate highly rhythmic passages for both the electronic and instrumental parts. This is interwoven with more meditative and sparse material that takes inspiration from the album Mirror Guide (2021) by vaporwave artist Giant Claw. The coexistence between these two highly contrasting soundworlds is meant to allude to the vast and diverse range of influences that Álvarez had throughout his life.",
 		"duration": 7,
-		"artwork": "https://i1.sndcdn.com/artworks-1QydimV8qvQZU5Xe-uNhMHw-t500x500.jpg",
+		"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/salsa_al_vapor.jpg", 
 		"instrumentation": [
 			"pnf",
 			"elec"
 		],
-		"commission": "in progress",
+		"commission": false,
 		"categories": [
-			"large ensemble",
-			"mixed",
+			"solo",
+			"chamber",
 			"electronic"
 		],
 		"awards": false,
-		"performances": []
+		"performances": [
+			{
+				"event": "Sonic explorations",
+				"date": "2024-03-20",
+				"performers": [
+					{
+						"name": "Michael Delfín",
+						"role": "piano"
+					}
+				],
+				"venue": "Cohen Studio Theater",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			}
+		]
 	},
 	{
 		"name": "«Simulacra»",
