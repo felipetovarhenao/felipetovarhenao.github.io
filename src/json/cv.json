@@ -650,6 +650,21 @@
 		},
 		"software": [
 			{
+				"name": "jinx",
+				"url": "https://felipe-tovar-henao.com/jinx",
+				"year": 2023,
+				"active": true,
+				"keywords": [
+					"MaxMSP",
+					"bach",
+					"just intonation",
+					"pedagogy",
+					"tuning theory"
+				],
+				"artwork": "https://d2cqospqxtt8fw.cloudfront.net/personal-website/media/images/jinx.jpg",
+				"description": "jinx is a set of educational and interactive tools for learning about just intonation, xenharmonic music, and tuning theory more broadly."
+			},
+			{
 				"name": "just intuition",
 				"url": "https://felipe-tovar-henao.com/just-intuition",
 				"year": 2023,
