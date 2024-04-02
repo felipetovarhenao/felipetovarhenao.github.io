@@ -120,8 +120,8 @@
 		"awards": false,
 		"performances": [
 			{
-				"event": "Time:Spans Festival",
-				"date": "2024-08-24",
+				"event": "Time:Spans Festival: Alarm Will Sound.",
+				"date": "2024-08-22",
 				"performers": [
 					{
 						"name": "Alan Pierson",
@@ -132,7 +132,7 @@
 						"role": "ensemble"
 					}
 				],
-				"venue": "DiMenna Center for Classical Music",
+				"venue": "DiMenna Center for Classical Music's Mary Flagler Cary Hall",
 				"city": "New York City, NY",
 				"country": "USA",
 				"audio": false,
