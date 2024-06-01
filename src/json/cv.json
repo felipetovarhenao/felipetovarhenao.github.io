@@ -386,9 +386,17 @@
 				"events": [
 					{
 						"language": "English",
+						"name": "Composition Forum",
+						"date": "2023-02-21",
+						"venue": "Indiana University Jacobs School of Music, Room MC 066",
+						"city": "Bloomington, IN",
+						"country": "USA"
+					},
+					{
+						"language": "English",
 						"name": "Composition Symposium",
 						"date": "2023-08-31",
-						"venue": "Mary Emery Hall, Room 3230",
+						"venue": "University of Cincinnati College-Conservatory of Music's Mary Emery Hall, Room 3230",
 						"city": "Cincinnati, OH",
 						"country": "USA"
 					},
@@ -481,6 +489,29 @@
 		],
 		"workshops": [
 			{
+				"name": "Introduction to Computer-assisted Algorithmic Composition with bach.",
+				"events": [
+					{
+						"language": "English",
+						"date": "2024-02-22",
+						"numSessions": 1,
+						"totalHours": 1.2,
+						"institution": "Indiana University Jacobs School of Music",
+						"city": "Bloomington Indiana",
+						"country": "USA"
+					},
+					{
+						"language": "English",
+						"date": "2023-11-15",
+						"numSessions": 1,
+						"totalHours": 1.2,
+						"institution": "University of Cincinnati College-Conservatory of Music",
+						"city": "Cincinnati, OH",
+						"country": "USA"
+					}
+				]
+			},
+			{
 				"name": "OpenMusic intensive workshop",
 				"events": [
 					{
@@ -521,6 +552,17 @@
 		"residencies": [
 			{
 				"role": "Guest composer",
+				"date": "2024-02-21",
+				"event": "Composition Forum",
+				"institution": "Indiana University Jacobs School of Music",
+				"end": "2024-02-22",
+				"activities": [
+					"guest lecture",
+					"student workshop"
+				]
+			},
+			{
+				"role": "Guest composer",
 				"date": "2023-03-27",
 				"event": "Davis Institute for Artificial Intelligence",
 				"institution": "Colby College",
@@ -559,6 +601,15 @@
 		],
 		"publications": {
 			"articles": [
+				{
+					"name": "Emerging Patterns: Music Generation through Markovian Feedback",
+					"author": "Tovar Henao, F.",
+					"date": 2024,
+					"publisher": "Proceedings of the 50th International Computer Music Conference",
+					"edition": 50,
+					"pages": false,
+					"doi": "https://www.icmc2024.org/"
+				},
 				{
 					"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
 					"author": "Tovar Henao, F.",
@@ -649,6 +700,36 @@
 			]
 		},
 		"software": [
+			{
+				"name": "bellplay~",
+				"url": "https://github.com/felipetovarhenao/bellplay",
+				"year": 2024,
+				"active": true,
+				"keywords": [
+					"MaxMSP",
+					"bach",
+					"dada",
+					"ears",
+					"essentia",
+					"algorithmic audio",
+					"bell"
+				],
+				"artwork": "https://d2cq0goacowtde.cloudfront.net/bellplay/bellplay.png",
+				"description": "Open-source software application and framework for algorithmic audio in the bell programming language."
+			},
+			{
+				"name": "bell syntax extension",
+				"url": "https://marketplace.visualstudio.com/items?itemName=tovarhenao.bell-syntax",
+				"year": 2024,
+				"active": true,
+				"keywords": [
+					"bell",
+					"vscode",
+					"syntax highlighting"
+				],
+				"artwork": "https://cdn.neowin.com/news/images/uploaded/2023/07/1688749943_vscode_story.jpg",
+				"description": "Syntax highlighting extension for the bell programming language in Visual Studio Code."
+			},
 			{
 				"name": "jinx",
 				"url": "https://github.com/felipetovarhenao/jinx",

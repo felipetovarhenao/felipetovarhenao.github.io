@@ -22,7 +22,7 @@ export default function PublicationsSubView({ publications }) {
                       </a>
                       <span className="publisher">. {publication.publisher}, </span>
                       <span className="edition">{publication.edition}. </span>
-                      <span className="pages">{`pp. ${publication.pages[0]}-${publication.pages[1]}`}. </span>
+                      {publication.pages && <span className="pages">{`pp. ${publication.pages[0]}-${publication.pages[1]}`}. </span>}
                     </>
                   ) : (
                     <>

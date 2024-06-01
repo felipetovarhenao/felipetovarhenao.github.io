@@ -1,5 +1,23 @@
 [
 	{
+		"name": "«ludus vocalis»",
+		"year": 2024,
+		"subtitle": "surround multi-media installation",
+		"notes": "work in progress.",
+		"duration": 30,
+		"artwork": "https://img.freepik.com/premium-photo/close-up-person-s-mouth-teeth_852340-6381.jpg", 
+		"instrumentation": [
+			"elec"
+		],
+		"commission": false,
+		"categories": [
+			"electronic"
+		],
+		"awards": false,
+		"performances": [
+		]
+	},
+	{
 		"name": "«salsa al vapor»",
 		"year": 2023,
 		"subtitle": "omaggio for piano and electronics",
@@ -18,6 +36,36 @@
 		],
 		"awards": false,
 		"performances": [
+			{
+				"event": "International Computer Music Conference",
+				"date": "2024-07-10",
+				"performers": [
+					{
+						"name": "TBA",
+						"role": "piano"
+					}
+				],
+				"venue": "Hanyang University's Electronic Music Research Institute CREAMA",
+				"city": "Seoul",
+				"country": "South Korea",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "The New York City Electroacoustic Music Festival",
+				"date": "2024-06-19",
+				"performers": [
+					{
+						"name": "Shiau-uen Ding",
+						"role": "piano"
+					}
+				],
+				"venue": "The Sheen Center for Thought & Culture's Loreto Theatre",
+				"city": "New York City, NY",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
 			{
 				"event": "Sonic explorations",
 				"date": "2024-03-20",
