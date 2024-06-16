@@ -718,17 +718,35 @@
 				"description": "Open-source software application and framework for algorithmic audio in the bell programming language."
 			},
 			{
-				"name": "bell syntax extension",
+				"name": "bellplay~ plugin",
+				"url": "https://marketplace.visualstudio.com/items?itemName=tovarhenao.bellplay-plugin",
+				"year": 2024,
+				"active": true,
+				"keywords": [
+					"bell",
+					"vscode",
+					"bellplay",
+					"intellisense",
+					"development"
+				],
+				"artwork": "https://cdn.neowin.com/news/images/uploaded/2023/07/1688749943_vscode_story.jpg",
+				"description": "A Visual Studio Code extension that provides intellisense features for all additional functions in the bellplay~ framework for algorithmic audio."
+			},
+			{
+				"name": "bell syntax",
 				"url": "https://marketplace.visualstudio.com/items?itemName=tovarhenao.bell-syntax",
 				"year": 2024,
 				"active": true,
 				"keywords": [
 					"bell",
 					"vscode",
-					"syntax highlighting"
+					"syntax highlighting",
+					"intellisense",
+					"formatting",
+					"development"
 				],
-				"artwork": "https://cdn.neowin.com/news/images/uploaded/2023/07/1688749943_vscode_story.jpg",
-				"description": "Syntax highlighting extension for the bell programming language in Visual Studio Code."
+				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/bell-syntax/dev/preview.gif",
+				"description": "A Visual studio code extension for basic intellisense, formatting, and syntax highlighting in the bell programming language."
 			},
 			{
 				"name": "jinx",
