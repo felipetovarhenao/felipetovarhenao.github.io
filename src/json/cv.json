@@ -227,6 +227,16 @@
 				],
 				"courses": [
 					{
+						"name": "Special Topics in Composition: Introduction to Computer-assisted Algorithmic Composition",
+						"code": "COMP5111",
+						"terms": "Fall 2025"
+					},
+					{
+						"name": "Composition lessons (DMA)",
+						"code": "COMP 9001-004",
+						"terms": "Fall 2024 - Spring 2025"
+					},
+					{
 						"name": "Special Topics in Composition: Alternate Tuning Systems",
 						"code": "COMP5111",
 						"terms": "Spring 2024"
@@ -384,6 +394,14 @@
 			{
 				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in recent works",
 				"events": [
+					{
+						"language": "Spanish",
+						"name": "'Código y Cadencia' Symposium [keynote]",
+						"date": "2024-09-25",
+						"institution": "Universidad de Antioquia",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia (remote)"
+					},
 					{
 						"language": "English",
 						"name": "Composition Forum",
@@ -606,9 +624,24 @@
 					"author": "Tovar Henao, F.",
 					"date": 2024,
 					"publisher": "Proceedings of the 50th International Computer Music Conference",
-					"edition": 50,
-					"pages": false,
-					"doi": "https://www.icmc2024.org/"
+					"edition": 49,
+					"pages": [
+						70,
+						73
+					],
+					"doi": "https://www.icmc2024.org/_files/ugd/c6d010_c32354036f0c45f78c3c2b1658ef2230.pdf"
+				},
+				{
+					"name": "Cincinnati Center for Computer Music 2024",
+					"author": "McAuliffe et al. [2nd author]",
+					"date": 2024,
+					"publisher": "Proceedings of the 50th International Computer Music Conference",
+					"edition": 49,
+					"pages": [
+						174,
+						177
+					],
+					"doi": "https://www.icmc2024.org/_files/ugd/c6d010_c32354036f0c45f78c3c2b1658ef2230.pdf"
 				},
 				{
 					"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
