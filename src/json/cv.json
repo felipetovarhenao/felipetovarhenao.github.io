@@ -398,7 +398,7 @@
 						"language": "Spanish",
 						"name": "'Código y Cadencia' Symposium [keynote]",
 						"date": "2024-09-25",
-						"institution": "Universidad de Antioquia",
+						"venue": "Universidad de Antioquia",
 						"city": "Medellín, Antioquia",
 						"country": "Colombia (remote)"
 					},
@@ -629,7 +629,7 @@
 						70,
 						73
 					],
-					"doi": "https://www.icmc2024.org/_files/ugd/c6d010_c32354036f0c45f78c3c2b1658ef2230.pdf"
+					"doi": "https://www.icmc2024.org/"
 				},
 				{
 					"name": "Cincinnati Center for Computer Music 2024",
@@ -641,7 +641,7 @@
 						174,
 						177
 					],
-					"doi": "https://www.icmc2024.org/_files/ugd/c6d010_c32354036f0c45f78c3c2b1658ef2230.pdf"
+					"doi": "https://www.icmc2024.org/"
 				},
 				{
 					"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
@@ -1324,7 +1324,7 @@
 			},
 			{
 				"name": "TouchDesigner",
-				"level": 2,
+				"level": 1,
 				"keywords": [
 					"Python",
 					"GLSL",

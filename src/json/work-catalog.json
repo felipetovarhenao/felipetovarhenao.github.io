@@ -1,5 +1,22 @@
 [
 	{
+		"name": "New work",
+		"year": 2025,
+		"subtitle": "for double bass",
+		"notes": "work in progress.",
+		"duration": 6,
+		"artwork": "https://images.squarespace-cdn.com/content/v1/5d4b564c567bfd000100bc03/ab5c4417-4dff-42af-a76e-ec8abb5494c9/DSC03794.jpg",
+		"instrumentation": [
+			"db"
+		],
+		"commission": "Commissioned by New Downbeat collective",
+		"categories": [
+			"solo"
+		],
+		"awards": false,
+		"performances": []
+	},
+	{
 		"name": "«ludus vocalis»",
 		"year": 2024,
 		"subtitle": "for 8-channel audiovisual fixed media",
@@ -15,7 +32,18 @@
 			"electronic"
 		],
 		"awards": false,
-		"performances": []
+		"performances": [
+			{
+				"event": "Sonic explorations",
+				"date": "2024-10-22",
+				"performers": [],
+				"venue": "Cohen Studio Theater",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			}
+		]
 	},
 	{
 		"name": "«salsa al vapor»",
