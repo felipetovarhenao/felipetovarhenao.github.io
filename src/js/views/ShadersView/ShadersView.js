@@ -23,7 +23,10 @@ export default function ShadersView() {
     "7lSXzz",
     "NljSz1",
     "Nt2XzD",
-  ];
+  ]
+    .sort(() => Math.random() - Math.random())
+    .slice(0, 7);
+
   return (
     <>
       <ViewHeader title="procedural graphics" icon="mdi:animation-play" />

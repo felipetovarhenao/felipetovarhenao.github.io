@@ -2,11 +2,13 @@
 	{
 		"name": "New work",
 		"year": 2025,
-		"subtitle": "for double bass",
+		"subtitle": "for oboe, cello, and double bass",
 		"notes": "work in progress.",
 		"duration": 6,
 		"artwork": "https://images.squarespace-cdn.com/content/v1/5d4b564c567bfd000100bc03/ab5c4417-4dff-42af-a76e-ec8abb5494c9/DSC03794.jpg",
 		"instrumentation": [
+			"ob",
+			"vc",
 			"db"
 		],
 		"commission": "Commissioned by New Downbeat collective",

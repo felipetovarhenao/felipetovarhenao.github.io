@@ -395,6 +395,14 @@
 				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in recent works",
 				"events": [
 					{
+						"language": "English",
+						"name": "Composition Colloquium",
+						"date": "2024-11-21",
+						"venue": "Northwestern University",
+						"city": "Chicago, IL",
+						"country": "USA"
+					},
+					{
 						"language": "Spanish",
 						"name": "'Código y Cadencia' Symposium [keynote]",
 						"date": "2024-09-25",
@@ -657,6 +665,18 @@
 				}
 			],
 			"scores": [
+				{
+					"name": "«Carnaval del Diablo» matachinesque ritual for clarinet and fixed media",
+					"author": "Tovar Henao, F.",
+					"date": 2024,
+					"publisher": "Accepted for Publication in Ediciones Musicales | Editorial EAFIT",
+					"edition": 19,
+					"pages": [
+						1,
+						17
+					],
+					"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
+				},
 				{
 					"name": "«Danzas Encefálicas» for sinfonietta and electronics",
 					"author": "Tovar Henao, F.",
