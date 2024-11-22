@@ -36,6 +36,16 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Chicago Laboratory for Electro-Acoustic Theatre",
+				"date": "2025-02-14",
+				"performers": [],
+				"venue": "Elastic Arts",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Sonic explorations",
 				"date": "2024-10-22",
 				"performers": [],
