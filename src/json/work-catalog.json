@@ -77,6 +77,21 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "CAMPGround25",
+				"date": "2025-03-15",
+				"performers": [
+					{
+						"name": "Eunmi Ko",
+						"role": "piano"
+					}
+				],
+				"venue": "Tempus Projects in Ybor",
+				"city": "Tampa, FL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "CLICK Fest",
 				"date": "2024-09-20",
 				"performers": [
