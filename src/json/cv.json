@@ -359,11 +359,13 @@
 				],
 				"courses": [
 					{
-						"name": "MUS-K100: Composition (non-majors)",
+						"name": "Composition (non-majors)",
+						"code": "MUS-K100",
 						"terms": "Fall 2017 - Spring 2020"
 					},
 					{
-						"name": "MUS-K214: Instrumentation I",
+						"name": "Instrumentation I",
+						"code": "MUS-K214",
 						"terms": "Fall 2017"
 					},
 					{
