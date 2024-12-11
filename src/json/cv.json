@@ -755,6 +755,22 @@
 		},
 		"software": [
 			{
+				"name": "bell programming tutorials",
+				"url": "https://felipe-tovar-henao.com/bell-tutorials",
+				"year": 2024,
+				"active": true,
+				"keywords": [
+					"programming",
+					"education",
+					"bell",
+					"algorithmic composition",
+					"Typescript",
+					"React"
+				],
+				"artwork": "https://raw.githubusercontent.com/felipetovarhenao/bell-tutorials/refs/heads/main/public/logo.png",
+				"description": "A series of musician-friendly, introductory tutorials to programming with the bell programming language"
+			},
+			{
 				"name": "bellplay~",
 				"url": "https://github.com/felipetovarhenao/bellplay",
 				"year": 2024,
