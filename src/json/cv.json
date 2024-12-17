@@ -755,6 +755,21 @@
 		},
 		"software": [
 			{
+				"name": "bellplayGPT",
+				"url": "https://chatgpt.com/g/g-6761a51412548191aac97a4c9f94a110-bellplaygpt",
+				"year": 2025,
+				"active": true,
+				"keywords": [
+					"AI",
+					"llms",
+					"education",
+					"bell",
+					"bellplay"
+				],
+				"artwork": "https://www.unimedia.tech/wp-content/uploads/2023/12/openAI-chat-gpt-1-4.jpg",
+				"description": "An educational GPT model for learning about the bell programming language and the bellplay~ framework for algorithmic audio"
+			},
+			{
 				"name": "bell programming tutorials",
 				"url": "https://felipe-tovar-henao.com/bell-tutorials",
 				"year": 2024,
