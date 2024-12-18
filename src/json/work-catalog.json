@@ -36,11 +36,31 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "2025 Performing Media Festival",
+				"date": "2025-03-15",
+				"performers": [],
+				"venue": "St. Joe County Public Library's Leighton Auditorium",
+				"city": "South Bend, IN",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Chicago Laboratory for Electro-Acoustic Theatre",
 				"date": "2025-02-14",
 				"performers": [],
 				"venue": "Elastic Arts",
 				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "20th Workshop on Computer Music and Audio Technology (WOCMAT)",
+				"date": "2024-12-20",
+				"performers": [],
+				"venue": "Kainan University",
+				"city": "Taiwan",
 				"country": "USA",
 				"audio": false,
 				"video": false
@@ -53,7 +73,7 @@
 				"city": "Cincinnati, OH",
 				"country": "USA",
 				"audio": false,
-				"video": false
+				"video": "0gnXOqT6mRk"
 			}
 		]
 	},
