@@ -755,6 +755,19 @@
 		},
 		"software": [
 			{
+				"name": "musings",
+				"url": "https://felipe-tovar-henao.com/musings/",
+				"year": 2025,
+				"active": true,
+				"keywords": [
+					"education",
+					"algorithmic composition",
+					"react"
+				],
+				"artwork": "https://cdn-icons-png.flaticon.com/512/584/584764.png",
+				"description": "A collection of algorithmic music puzzles."
+			},
+			{
 				"name": "bellplayGPT",
 				"url": "https://chatgpt.com/g/g-6761a51412548191aac97a4c9f94a110-bellplaygpt",
 				"year": 2025,
