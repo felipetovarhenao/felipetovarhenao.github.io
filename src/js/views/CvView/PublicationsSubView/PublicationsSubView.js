@@ -17,11 +17,15 @@ export default function PublicationsSubView({ publications }) {
                     <>
                       <span className="author">{publication.author} </span>
                       <span className="date"> ({publication.date}). </span>
-                      <a className="name" href={publication.doi} target="_blank" rel="noreferrer">
-                        {publication.name}
-                      </a>
+                      {publication.doi ? (
+                        <a className="name" href={publication.doi} target="_blank" rel="noreferrer">
+                          {publication.name}
+                        </a>
+                      ) : (
+                        <span className="name">{publication.name}</span>
+                      )}
                       <span className="publisher">. {publication.publisher}, </span>
-                      <span className="edition">{publication.edition}. </span>
+                      {publication.edition && <span className="edition">{publication.edition}. </span>}
                       {publication.pages && <span className="pages">{`pp. ${publication.pages[0]}-${publication.pages[1]}`}. </span>}
                     </>
                   ) : (
@@ -41,9 +45,11 @@ export default function PublicationsSubView({ publications }) {
                       </span>
                     </>
                   )}
-                  <a className="doi" href={publication.doi || publication.url} target="_blank" rel="noreferrer">
-                    <Icon className="icon" icon="mdi:link-variant" />
-                  </a>
+                  {publication.doi && (
+                    <a className="doi" href={publication.doi || publication.url} target="_blank" rel="noreferrer">
+                      <Icon className="icon" icon="mdi:link-variant" />
+                    </a>
+                  )}
                 </div>
               ))}
           </div>

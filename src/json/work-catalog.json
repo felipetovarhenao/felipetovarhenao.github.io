@@ -36,6 +36,16 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "2025 SEAMUS National Conference",
+				"date": "2025-03-22",
+				"performers": [],
+				"venue": "Purdue University",
+				"city": "West Lafayette, IN",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "2025 Performing Media Festival",
 				"date": "2025-03-15",
 				"performers": [],

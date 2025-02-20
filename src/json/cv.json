@@ -629,6 +629,15 @@
 		"publications": {
 			"articles": [
 				{
+					"name": "bellplay~: A Symbolic Framework for Offline Algorithmic Audio",
+					"author": "Tovar Henao, F.",
+					"date": 2025,
+					"publisher": "Under review",
+					"edition": null,
+					"pages": null,
+					"doi": null
+				},
+				{
 					"name": "Emerging Patterns: Music Generation through Markovian Feedback",
 					"author": "Tovar Henao, F.",
 					"date": 2024,
