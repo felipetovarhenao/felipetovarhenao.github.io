@@ -1,22 +1,46 @@
 [
 	{
-		"name": "New work",
+		"name": "«Machina Rasa»",
 		"year": 2025,
-		"subtitle": "for oboe, cello, and double bass",
-		"notes": "work in progress.",
-		"duration": 6,
-		"artwork": "https://images.squarespace-cdn.com/content/v1/5d4b564c567bfd000100bc03/ab5c4417-4dff-42af-a76e-ec8abb5494c9/DSC03794.jpg",
+		"subtitle": "for amplified trio",
+		"notes": "While machines are often designed and built with purpose, «Machina Rasa» considers a different perspective—one where the machine begins as a blank slate, without intention, influence, or predetermined form. It does not seek to imitate, nor does it reference; it simply is. Like an uncarved block, it unfolds on its own terms, free from narrative or expectation. Whether meaning emerges is left to the listener.",
+		"duration": 7,
+		"artwork": "https://d2cq0goacowtde.cloudfront.net/machina_rasa/machina_rasa.jpg",
 		"instrumentation": [
 			"ob",
 			"vc",
 			"db"
 		],
-		"commission": "Commissioned by New Downbeat collective",
+		"commission": "Written for and commissioned by New Downbeat Collective",
 		"categories": [
-			"solo"
+			"chamber"
 		],
 		"awards": false,
-		"performances": []
+		"performances": [
+			{
+				"event": "New Downbeat Collective's Season 6 Premieres Concert",
+				"date": "2025-05-25",
+				"performers": [
+					{
+						"name": "Bonnie Farr",
+						"role": "oboe"
+					},
+					{
+						"name": "Naomi Guth",
+						"role": "cello"
+					},
+					{
+						"name": "Jessica Kovach",
+						"role": "double bass"
+					}
+				],
+				"venue": "ARCO",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			}
+		]
 	},
 	{
 		"name": "«ludus vocalis»",
@@ -70,7 +94,7 @@
 				"date": "2025-01-24",
 				"performers": [],
 				"venue": "University of Cincinnati College-Conservatory of Music",
-				"city": "Cincinnati",
+				"city": "Cincinnati, OH",
 				"country": "USA",
 				"audio": false,
 				"video": false
