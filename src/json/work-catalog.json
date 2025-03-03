@@ -989,6 +989,21 @@
 		],
 		"performances": [
 			{
+				"event": "Oh My Ears Festival: Julianna Eidle",
+				"date": "2025-03-28",
+				"performers": [
+					{
+						"name": "Julianna Eidle",
+						"role": "flute"
+					}
+				],
+				"venue": "First Studio",
+				"city": "Phoenix, AZ",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Sonic explorations",
 				"date": "2023-10-17",
 				"performers": [
