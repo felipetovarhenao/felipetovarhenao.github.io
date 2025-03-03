@@ -580,6 +580,21 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Carillon New Music Festival: Opening concert",
+				"date": "2025-05-09",
+				"performers": [
+					{
+						"name": "Joseph Min",
+						"role": "carillon"
+					}
+				],
+				"venue": "Rockefeller Chapel, University of Chicago",
+				"city": "Chicago, IL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "2022 Guild of Carilloneurs of North America (GCNA) Congress: Opening concert",
 				"date": "2022-06-15",
 				"performers": [
