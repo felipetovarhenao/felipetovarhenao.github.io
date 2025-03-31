@@ -393,6 +393,27 @@
 		],
 		"lectures": [
 			{
+				"name": "bellplay~: A Symbolic Framework for Offline Algorithmic Audio",
+				"events": [
+					{
+						"language": "English",
+						"name": "Les Ateliers IRCAM Forum",
+						"date": "2025-03-27",
+						"venue": "Institut de Recherche et Coordination Acoustique/Musique",
+						"city": "Paris",
+						"country": "France"
+					},
+					{
+						"language": "English",
+						"name": "SEAMUS National Conference",
+						"date": "2025-03-22",
+						"venue": "Purdue University (Remote)",
+						"city": "West Lafayette, IN",
+						"country": "USA"
+					}
+				]
+			},
+			{
 				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in recent works",
 				"events": [
 					{
