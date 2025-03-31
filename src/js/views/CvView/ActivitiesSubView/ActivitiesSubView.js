@@ -4,27 +4,6 @@ import formatDate, { dateRange } from "../../../utils/formatDate";
 export default function ActivitiesSubView({ work }) {
   return (
     <div className="activities-subview">
-      <div className="lectures">
-        <div className="header">lectures</div>
-        {work.lectures.map((lecture, i) => (
-          <div className="lecture" key={i}>
-            <span className="name">{lecture.name}</span>
-            <div className="events">
-              {lecture.events.map((ev, j) => (
-                <div className="event" key={j}>
-                  <span className="name">@ {ev.name}</span>
-                  <span className="venue">{ev.venue}. </span>
-                  <span className="date">{formatDate(ev.date)}. </span>
-                  <span className="language">[{ev.language.slice(0, 3)}]. </span>
-                  <br />
-                  <span className="city">{ev.city}. </span>
-                  <span className="country">{ev.country}.</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
       <div className="residencies">
         <div className="header">residencies</div>
         {work.residencies.map((residence, i) => (
@@ -45,6 +24,28 @@ export default function ActivitiesSubView({ work }) {
           </div>
         ))}
       </div>
+      <div className="lectures">
+        <div className="header">lectures/presentations</div>
+        {work.lectures.map((lecture, i) => (
+          <div className="lecture" key={i}>
+            <span className="name">{lecture.name}</span>
+            <div className="events">
+              {lecture.events.map((ev, j) => (
+                <div className="event" key={j}>
+                  <span className="name">@ {ev.name}</span>
+                  <span className="venue">{ev.venue}. </span>
+                  <span className="date">{formatDate(ev.date)}. </span>
+                  <span className="language">[{ev.language.slice(0, 3)}]. </span>
+                  <br />
+                  <span className="city">{ev.city}. </span>
+                  <span className="country">{ev.country}.</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+
       <div className="workshops">
         <div className="header">workshops</div>
         {work.workshops.map((workshop, i) => (
