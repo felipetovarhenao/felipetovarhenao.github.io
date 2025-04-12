@@ -141,6 +141,21 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Humo y Fuego: Music from North and South America for Piano and Electronics",
+				"date": "2025-04-25",
+				"performers": [
+					{
+						"name": "Jacob Mason",
+						"role": "piano"
+					}
+				],
+				"venue": "Doral Piano Studio",
+				"city": "Doral, FL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "CAMPGround25",
 				"date": "2025-03-15",
 				"performers": [
