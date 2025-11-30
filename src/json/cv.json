@@ -211,10 +211,39 @@
 		],
 		"academic": [
 			{
+				"name": "Assistant Professor of AI and Composition",
+				"date": [
+					2025,
+					true
+				],
+				"workplace": "University of Florida",
+				"city": "Gainesville, FL",
+				"country": "USA",
+				"duties": [
+					"Manage electroacoustic and AI music studio",
+					"Teach courses in the AI and the Arts Certificate program",
+					"Teach composition studio lessons",
+					"Advise students on their disseratations, theses, and honors projects.",
+					"Attend and participate in composition colloquia, events, and concerts"
+				],
+				"courses": [
+					{
+						"name": "Musical Data Structures",
+						"code": "MUT 3622",
+						"terms": "Spring 2026"
+					},
+					{
+						"name": "Graduate Composition",
+						"code": "MUC 6930",
+						"terms": "Fall 2025 - pr."
+					}
+				]
+			},
+			{
 				"name": "Charles H. Turner Postdoctoral Fellow in Music Composition",
 				"date": [
 					2023,
-					true
+					2025
 				],
 				"workplace": "University of Cincinnati's College-Conservatory of Music",
 				"city": "Cincinnati, OH",
