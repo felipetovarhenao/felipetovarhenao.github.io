@@ -6,7 +6,7 @@
   width: 100%;
   position: relative;
   .avatar-inner {
-    $max-size: 200px;
+    $max-size: 220px;
     @include stack;
     @include center;
     @include border($size: $border-ml);
@@ -25,7 +25,6 @@
       display: block;
       width: $max-size;
       height: auto;
-      translate: 0px -50px;
       scale: 1;
       z-index: 11;
     }
