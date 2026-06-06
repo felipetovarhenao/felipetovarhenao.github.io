@@ -833,6 +833,19 @@
 			],
 			"recordings": [
 				{
+					"track": "Fully Automated Luxury Music",
+					"album": "LP",
+					"performers": [
+						{
+							"name": "Felipe Tovar-Henao",
+							"role": "composer"
+						}
+					],
+					"year": 2026,
+					"recordLabel": "Deadland Records",
+					"url": ""
+				},
+				{
 					"track": "«¡Carnaval del Diablo!» matachinesque ritual for clarinet and electronics",
 					"album": "Sortilegios",
 					"performers": [
