@@ -72,6 +72,12 @@
 	"awards": {
 		"academic": [
 			{
+				"name": "Provost's AI Course Designation Incentive Fund",
+				"date": 2025,
+				"institution": "University of Florida",
+				"country": "USA"
+			},
+			{
 				"name": "Juan Orrego-Salas Scholarship Fund",
 				"date": 2017,
 				"institution": "Indiana University, Jacobs School of Music",
@@ -422,8 +428,37 @@
 		],
 		"lectures": [
 			{
+				"name": "Fully Automated Luxury Music: Experiments in Open-Source Algorithmic Music",
+				"events": [
+					{
+						"language": "Spanish",
+						"name": "Conferencia",
+						"date": "2026-04-22",
+						"venue": "38-101, Universidad EAFIT",
+						"city": "Medellín, Antioquia",
+						"country": "Colombia"
+					},
+					{
+						"language": "English",
+						"name": "Composition Studio",
+						"date": "2025-04-03",
+						"venue": "University of Florida",
+						"city": "Gainesville, FL",
+						"country": "USA"
+					}
+				]
+			},
+			{
 				"name": "bellplay~: A Symbolic Framework for Offline Algorithmic Audio",
 				"events": [
+					{
+						"language": "English",
+						"name": "International Computer Music Conference",
+						"date": "2025-06-14",
+						"venue": "Northeastern University",
+						"city": "Boston, MA",
+						"country": "USA"
+					},
 					{
 						"language": "English",
 						"name": "Les Ateliers IRCAM Forum",
@@ -445,6 +480,14 @@
 			{
 				"name": "Simulating constraints: Approaches to computer-assisted algorithmic composition in recent works",
 				"events": [
+					{
+						"language": "English",
+						"name": "Composition Studio",
+						"date": "2025-09-12",
+						"venue": "University of Florida",
+						"city": "Gainesville, FL",
+						"country": "USA"
+					},
 					{
 						"language": "English",
 						"name": "Composition Colloquium",
@@ -566,6 +609,29 @@
 		],
 		"workshops": [
 			{
+				"name": "Introduction to Offline Algorithmic Audio with bellplay~.",
+				"events": [
+					{
+						"language": "English",
+						"date": "2026-03-19",
+						"numSessions": 1,
+						"totalHours": 1,
+						"institution": "IRCAM-Centre Pompidou",
+						"city": "Paris",
+						"country": "FR"
+					},
+					{
+						"language": "English",
+						"date": "2026-03-07",
+						"numSessions": 1,
+						"totalHours": 1.5,
+						"institution": "Colby College",
+						"city": "Waterville, ME",
+						"country": "USA"
+					}
+				]
+			},
+			{
 				"name": "Introduction to Computer-assisted Algorithmic Composition with bach.",
 				"events": [
 					{
@@ -681,11 +747,14 @@
 				{
 					"name": "bellplay~: A Symbolic Framework for Offline Algorithmic Audio",
 					"author": "Tovar Henao, F.",
-					"date": 2025,
-					"publisher": "Under review",
-					"edition": null,
-					"pages": null,
-					"doi": null
+					"date": 2024,
+					"publisher": "Computer Music Journal (MIT Press)",
+					"edition": 48,
+					"pages": [
+						61,
+						77
+					],
+					"doi": "https://doi.org/10.1162/COMJ.a.12"
 				},
 				{
 					"name": "Emerging Patterns: Music Generation through Markovian Feedback",
@@ -715,27 +784,27 @@
 					"name": "light.void~: An Autographic Case Study on Approaches, Constraints, and Affordances with a Light-dependent Musical Interface",
 					"author": "Tovar Henao, F.",
 					"date": 2022,
-					"publisher": "Ricercare",
-					"edition": 15,
+					"publisher": "CMMAS | Ideas Sonicas",
+					"edition": 27,
 					"pages": [
-						107,
-						122
+						77,
+						86
 					],
-					"doi": "https://doi.org/10.17230/ricercare.2022.15.5"
+					"doi": "https://www.cmmas.com/en/copy-2-of-ideassonicas25/ideassonicas%2Fsonicideas-23"
 				}
 			],
 			"scores": [
 				{
 					"name": "«Carnaval del Diablo» matachinesque ritual for clarinet and fixed media",
 					"author": "Tovar Henao, F.",
-					"date": 2024,
-					"publisher": "Accepted for Publication in Ediciones Musicales | Editorial EAFIT",
+					"date": 2026,
+					"publisher": "Ediciones Musicales | Editorial EAFIT",
 					"edition": 19,
 					"pages": [
 						1,
 						17
 					],
-					"doi": "https://doi.org/10.17230/ricercare.2020.13.3p"
+					"doi": ""
 				},
 				{
 					"name": "«Danzas Encefálicas» for sinfonietta and electronics",
@@ -814,6 +883,33 @@
 		},
 		"software": [
 			{
+				"name": "hachi machi",
+				"url": "https://hachi-machi.com",
+				"year": 2026,
+				"active": true,
+				"keywords": [
+					"machine improvisation",
+					"deep learning",
+					"pytorch",
+					"cli"
+				],
+				"artwork": "https://hachi-machi.com/img/logo.svg",
+				"description": "a command-line interface for performing artists to quickly and easily prototype, train, and run their own improvisational models, with their own data, in their own computers."
+			},
+			{
+				"name": "py-llll",
+				"url": "https://github.com/felipetovarhenao/llll",
+				"year": 2026,
+				"active": true,
+				"keywords": [
+					"lisp-like linked lists",
+					"python",
+					"bach"
+				],
+				"artwork": "https://www.bachproject.net/wpsite/wp-content/uploads/2016/04/bach_logo_complete_centered_pad.png",
+				"description": "Python support for lisp-like linked lists."
+			},
+			{
 				"name": "replay",
 				"url": "https://felipe-tovar-henao.com/replay/",
 				"year": 2025,
@@ -830,7 +926,7 @@
 				"name": "bellplayGPT",
 				"url": "https://chatgpt.com/g/g-6761a51412548191aac97a4c9f94a110-bellplaygpt",
 				"year": 2025,
-				"active": true,
+				"active": false,
 				"keywords": [
 					"AI",
 					"llms",
@@ -1082,7 +1178,7 @@
 				"name": "miniOMsynth",
 				"url": "https://github.com/felipetovarhenao/miniOMsynth",
 				"year": 2021,
-				"active": true,
+				"active": false,
 				"keywords": [
 					"MaxMSP",
 					"Gen",
@@ -1099,7 +1195,7 @@
 				"name": "OM-Data",
 				"url": "https://github.com/felipetovarhenao/OM-Data",
 				"year": 2021,
-				"active": true,
+				"active": false,
 				"keywords": [
 					"Lisp",
 					"OpenMusic",

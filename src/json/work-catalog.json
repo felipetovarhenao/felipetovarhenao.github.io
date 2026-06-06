@@ -1,5 +1,31 @@
 [
 	{
+		"name": "Fully Automated Luxury Music",
+		"year": 2026,
+		"subtitle": "generative music album",
+		"notes": "Fully Automated Luxury Music (F.A.L.M) is an open-source, generative music album. The music is entirely generated through stochastic algorithms—probabilistic, rule-based processes designed to produce finely structured yet potentially infinite variants of a musical output, in the form of audio files. All generative scripts in this repository are written in the bell programming language and meant to be run in bellplay~, an offline algorithmic audio software and framework I started developing in 2024. The codebase is end-to-end (E2E), meaning it generates and assembles the entire album from scratch by running the scripts in the proper order, without need or expectation of any manual editing—in other words, it's a fully reproducible and parameterized work.\n\nThis album serves primarily as a proof of concept for open-source music—a still recent and underexplored compositional practice (see, for instance, Pierre Cusa AKA Pure Code's Ambient Garden Album)—and as a reflection on recent developments in AI automation, what they mean for the future of artistic practice, and how human expression can remain central to algorithmic design. The title is a wink and nod to Aaron Bastani's popular book Fully Automated Luxury Communism: A Manifesto, which offers a cautiously optimistic, though increasingly unlikely, utopian vision of technology's impacts on society.\n\nFully Automated Luxury Music was written and developed between May and October of 2025, in Chicago, Cincinnati, and Gainesville, USA.\n\n\t1. prelude (in memoriam Malugo)\n\t2. serenade\n\t3. caprice\n\t4. toccata\n\t5. chaconne\n\t6. waltz\n\t7. reverie\n\t8. nocturne\n\t9. rondo\n\t10. postlude (to my mother)",
+		"duration": 45,
+		"artwork": "https://d2cq0goacowtde.cloudfront.net/falm/artwork.jpg",
+		"instrumentation": [
+			"elec"
+		],
+		"categories": [
+			"electronic"
+		],
+		"awards": false,
+		"performances": [
+			{
+				"event": "International Computer Music Conference",
+				"date": "2026-05-13",
+				"venue": "Ligeti Zentrum",
+				"city": "Hamburg",
+				"country": "Germany",
+				"audio": false,
+				"video": false
+			}
+		]
+	},
+	{
 		"name": "«Machina Rasa»",
 		"year": 2025,
 		"subtitle": "for amplified trio",
@@ -59,6 +85,36 @@
 		],
 		"awards": false,
 		"performances": [
+			{
+				"event": "Electronic Music Midwest",
+				"date": "2026-03-14",
+				"performers": [],
+				"venue": "Philip Lynch Theatre, Lewis University",
+				"city": "Romeoville, IL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "Otro ruido",
+				"date": "2026-04-17",
+				"performers": [],
+				"venue": "Auditorio Fundadores",
+				"city": "Medellín, Antioquia",
+				"country": "Colombia",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "International Computer Music Conference",
+				"date": "2025-06-11",
+				"performers": [],
+				"venue": "Emerson College, Bright Family Screening Room",
+				"city": "Boston, MA",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
 			{
 				"event": "2025 SEAMUS National Conference",
 				"date": "2025-03-22",
@@ -140,6 +196,36 @@
 		],
 		"awards": false,
 		"performances": [
+			{
+				"event": "Splice Festival: Concert 2",
+				"date": "2025-03-06",
+				"performers": [
+					{
+						"name": "Jacob Mason",
+						"role": "piano"
+					}
+				],
+				"venue": "Colby College's The Gordon Center for Creative and Performing Arts - Studio 2",
+				"city": "Waterville, ME",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "Florida State University New Music Festival",
+				"date": "2025-01-31",
+				"performers": [
+					{
+						"name": "Quin Jiang",
+						"role": "piano"
+					}
+				],
+				"venue": "Opperman Music Hall",
+				"city": "Tallahassee, FL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
 			{
 				"event": "Humo y Fuego: Music from North and South America for Piano and Electronics",
 				"date": "2025-04-25",
@@ -1018,6 +1104,36 @@
 			}
 		],
 		"performances": [
+			{
+				"event": "New Downbeat Plugged In",
+				"date": "2026-04-24",
+				"performers": [
+					{
+						"name": "Julianna Eidle",
+						"role": "flute"
+					}
+				],
+				"venue": "Dsgn Cllctv",
+				"city": "Cincinnati, OH",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "Sky Blue Pink: A Midwestern Dreamscape",
+				"date": "2026-02-02",
+				"performers": [
+					{
+						"name": "Julianna Eidle",
+						"role": "flute"
+					}
+				],
+				"venue": "Western Illinois University",
+				"city": "Macomb, OH",
+				"country": "USA",
+				"audio": false,
+				"video": "IWLJNdy6mRo"
+			},
 			{
 				"event": "Oh My Ears Festival: Julianna Eidle",
 				"date": "2025-03-28",
