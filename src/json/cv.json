@@ -896,6 +896,20 @@
 		},
 		"software": [
 			{
+				"name": "Fully Automated Luxury Music",
+				"url": "https://fullyautomatedluxurymusic.com",
+				"year": 2026,
+				"active": true,
+				"keywords": [
+					"generative music",
+					"algorithmic composition",
+					"sampling",
+					"datasets"
+				],
+				"artwork": "https://d2cq0goacowtde.cloudfront.net/falm/artwork.jpg",
+				"description": "Web player for generative music album, Fully Automated Luxury Music."
+			},
+			{
 				"name": "hachi machi",
 				"url": "https://hachi-machi.com",
 				"year": 2026,
