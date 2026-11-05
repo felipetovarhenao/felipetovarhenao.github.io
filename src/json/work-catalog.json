@@ -3,7 +3,7 @@
 		"name": "Fully Automated Luxury Music",
 		"year": 2026,
 		"subtitle": "generative music album",
-		"notes": "Fully Automated Luxury Music is an open-source, generative music album. Its ten tracks are entirely written as, and generated through, stochastic algorithms, capable of producing virtually infinite variations of the work. This album engages with questions around computational representations and formalizations of human expression and artistic intent. Alongside the audio, the album's generative code is available as open-source software, inviting others to examine, adapt, and generate their own versions of the music. Fully Automated Luxury Music is available digitally and as a limited-edition CD through Deadland Records.\n\nTrack list:\n\n\t1. prelude (in memoriam malugo)\n\t2. serenade\n\t3. caprice\n\t4. toccata\n\t5. chaconne\n\t6. waltz\n\t7. reverie\n\t8. nocturne\n\t9. rondo\n\t10. postlude (to my mother)",
+		"notes": "Fully Automated Luxury Music is an open-source, generative music album. Its ten tracks are entirely written as, and generated through, stochastic algorithms, capable of producing virtually infinite variations of the work. This album engages with questions around computational representations and formalizations of human expression and artistic intent. Alongside the audio, the album's generative code is available as open-source software, inviting others to examine, adapt, and generate their own versions of the music. Fully Automated Luxury Music is available digitally and as a limited-edition CD through Deadland Records, as well as most digital streaming platforms.\n\nTrack list:\n\n\t1. prelude (in memoriam malugo)\n\t2. serenade\n\t3. caprice\n\t4. toccata\n\t5. chaconne\n\t6. waltz\n\t7. reverie\n\t8. nocturne\n\t9. rondo\n\t10. postlude (to my mother)",
 		"duration": 42,
 		"commission": false,
 		"artwork": "https://d2cq0goacowtde.cloudfront.net/falm/artwork.jpg",
@@ -15,6 +15,15 @@
 		],
 		"awards": false,
 		"performances": [
+			{
+				"event": "Listening Party: Fully Automated Luxury Music",
+				"date": "2026-10-29",
+				"venue": "Bazaar47",
+				"city": "Gainesville",
+				"country": "USA",
+				"audio": "https://open.spotify.com/album/2stjjnOdPn81TYQRfUgoaj",
+				"video": "2VHC-CjzXqo&list=PLZAaSKxd5MX8"
+			},
 			{
 				"event": "International Computer Music Conference",
 				"date": "2026-05-13",
