@@ -16,10 +16,19 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Lesley Mok, Felipe Tovar-Henao",
+				"date": "2026-11-16",
+				"venue": "Timucua Arts Foundation",
+				"city": "Orlando, FL",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Listening Party: Fully Automated Luxury Music",
 				"date": "2026-10-29",
 				"venue": "Bazaar47",
-				"city": "Gainesville",
+				"city": "Gainesville, FL",
 				"country": "USA",
 				"audio": "https://open.spotify.com/album/2stjjnOdPn81TYQRfUgoaj",
 				"video": "2VHC-CjzXqo&list=PLZAaSKxd5MX8"
