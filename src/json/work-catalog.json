@@ -207,8 +207,38 @@
 		"awards": false,
 		"performances": [
 			{
+				"event": "Desire Paths",
+				"date": "2027-03-30",
+				"performers": [
+					{
+						"name": "Ear Transplant",
+						"role": "piano"
+					}
+				],
+				"venue": "Koncertkirken",
+				"city": "Coppenhagen",
+				"country": "Denmark",
+				"audio": false,
+				"video": false
+			},
+			{
+				"event": "Electronic Music Midwest",
+				"date": "2027-02-05",
+				"performers": [
+					{
+						"name": "Shiau-uen Ding",
+						"role": "piano"
+					}
+				],
+				"venue": "Kansas City Kansas Community College",
+				"city": "Kansas City, MO",
+				"country": "USA",
+				"audio": false,
+				"video": false
+			},
+			{
 				"event": "Splice Festival: Concert 2",
-				"date": "2025-03-06",
+				"date": "2026-03-06",
 				"performers": [
 					{
 						"name": "Jacob Mason",
@@ -223,7 +253,7 @@
 			},
 			{
 				"event": "Florida State University New Music Festival",
-				"date": "2025-01-31",
+				"date": "2026-01-31",
 				"performers": [
 					{
 						"name": "Quin Jiang",
